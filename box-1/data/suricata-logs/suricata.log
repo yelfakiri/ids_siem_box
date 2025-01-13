@@ -1,0 +1,1661 @@
+10/12/2024 -- 15:28:20 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+10/12/2024 -- 15:28:20 - <Info> - CPUs/cores online: 8
+10/12/2024 -- 15:28:20 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to get MTU via ioctl for 'docker0': No such device (19)
+10/12/2024 -- 15:28:20 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to get MTU via ioctl for 'docker0': No such device (19)
+10/12/2024 -- 15:28:20 - <Info> - fast output device (regular) initialized: fast.log
+10/12/2024 -- 15:28:20 - <Info> - eve-log output device (regular) initialized: eve.json
+10/12/2024 -- 15:28:20 - <Info> - stats output device (regular) initialized: stats.log
+10/12/2024 -- 15:28:20 - <Info> - Running in live mode, activating unix socket
+10/12/2024 -- 15:28:21 - <Info> - 1 rule files processed. 25362 rules successfully loaded, 0 rules failed
+10/12/2024 -- 15:28:21 - <Info> - Threshold config parsed: 0 rule(s) found
+10/12/2024 -- 15:28:21 - <Info> - 25365 signatures processed. 1270 are IP-only rules, 4092 are inspecting packet payload, 19799 inspect application layer, 108 are decoder event only
+10/12/2024 -- 15:28:27 - <Error> - [ERRCODE: SC_ERR_AFP_CREATE(190)] - Unable to find type for iface "docker0": No such device
+10/12/2024 -- 15:28:27 - <Info> - Going to use 8 thread(s)
+10/12/2024 -- 15:28:27 - <Info> - Running in live mode, activating unix socket
+10/12/2024 -- 15:28:27 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+10/12/2024 -- 15:28:27 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+10/12/2024 -- 15:28:27 - <Error> - [ERRCODE: SC_ERR_AFP_CREATE(190)] - Unable to find iface docker0: No such device
+10/12/2024 -- 15:28:27 - <Error> - [ERRCODE: SC_ERR_AFP_CREATE(190)] - Couldn't init AF_PACKET socket, fatal error
+10/12/2024 -- 15:28:27 - <Error> - [ERRCODE: SC_ERR_FATAL(171)] - thread W#01-docker0 failed
+10/12/2024 -- 15:32:33 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+10/12/2024 -- 15:32:33 - <Info> - CPUs/cores online: 8
+10/12/2024 -- 15:32:33 - <Info> - Found an MTU of 1500 for 'eth0'
+10/12/2024 -- 15:32:33 - <Info> - Found an MTU of 1500 for 'eth0'
+10/12/2024 -- 15:32:33 - <Info> - fast output device (regular) initialized: fast.log
+10/12/2024 -- 15:32:33 - <Info> - eve-log output device (regular) initialized: eve.json
+10/12/2024 -- 15:32:33 - <Info> - stats output device (regular) initialized: stats.log
+10/12/2024 -- 15:32:33 - <Info> - Running in live mode, activating unix socket
+10/12/2024 -- 15:32:33 - <Info> - 1 rule files processed. 25362 rules successfully loaded, 0 rules failed
+10/12/2024 -- 15:32:33 - <Info> - Threshold config parsed: 0 rule(s) found
+10/12/2024 -- 15:32:34 - <Info> - 25365 signatures processed. 1270 are IP-only rules, 4092 are inspecting packet payload, 19799 inspect application layer, 108 are decoder event only
+10/12/2024 -- 15:32:39 - <Info> - Going to use 8 thread(s)
+10/12/2024 -- 15:32:39 - <Info> - Running in live mode, activating unix socket
+10/12/2024 -- 15:32:39 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+10/12/2024 -- 15:32:39 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+10/12/2024 -- 15:32:39 - <Info> - All AFP capture threads are running.
+10/12/2024 -- 15:34:20 - <Notice> - Signal Received.  Stopping engine.
+10/12/2024 -- 15:34:20 - <Info> - time elapsed 100.745s
+10/12/2024 -- 15:34:20 - <Info> - Alerts: 0
+10/12/2024 -- 15:34:20 - <Info> - cleaning up signature grouping structure... complete
+10/12/2024 -- 15:34:20 - <Notice> - Stats for 'eth0':  pkts: 0, drop: 0 (nan%), invalid chksum: 0
+10/12/2024 -- 15:34:21 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+10/12/2024 -- 15:34:21 - <Info> - CPUs/cores online: 8
+10/12/2024 -- 15:34:21 - <Info> - Found an MTU of 1500 for 'eth0'
+10/12/2024 -- 15:34:21 - <Info> - Found an MTU of 1500 for 'eth0'
+10/12/2024 -- 15:34:22 - <Info> - fast output device (regular) initialized: fast.log
+10/12/2024 -- 15:34:22 - <Info> - eve-log output device (regular) initialized: eve.json
+10/12/2024 -- 15:34:22 - <Info> - stats output device (regular) initialized: stats.log
+10/12/2024 -- 15:34:22 - <Info> - Running in live mode, activating unix socket
+10/12/2024 -- 15:34:22 - <Info> - 1 rule files processed. 25362 rules successfully loaded, 0 rules failed
+10/12/2024 -- 15:34:22 - <Info> - Threshold config parsed: 0 rule(s) found
+10/12/2024 -- 15:34:22 - <Info> - 25365 signatures processed. 1270 are IP-only rules, 4092 are inspecting packet payload, 19799 inspect application layer, 108 are decoder event only
+10/12/2024 -- 15:34:28 - <Info> - Going to use 8 thread(s)
+10/12/2024 -- 15:34:28 - <Info> - Running in live mode, activating unix socket
+10/12/2024 -- 15:34:28 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+10/12/2024 -- 15:34:28 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+10/12/2024 -- 15:34:29 - <Info> - All AFP capture threads are running.
+10/12/2024 -- 15:35:13 - <Notice> - Signal Received.  Stopping engine.
+10/12/2024 -- 15:35:13 - <Info> - time elapsed 44.717s
+10/12/2024 -- 15:35:13 - <Info> - Alerts: 0
+10/12/2024 -- 15:35:14 - <Info> - cleaning up signature grouping structure... complete
+10/12/2024 -- 15:35:14 - <Notice> - Stats for 'eth0':  pkts: 0, drop: 0 (nan%), invalid chksum: 0
+10/12/2024 -- 15:35:15 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+10/12/2024 -- 15:35:15 - <Info> - CPUs/cores online: 8
+10/12/2024 -- 15:35:15 - <Info> - Found an MTU of 1500 for 'eth0'
+10/12/2024 -- 15:35:15 - <Info> - Found an MTU of 1500 for 'eth0'
+10/12/2024 -- 15:35:15 - <Info> - fast output device (regular) initialized: fast.log
+10/12/2024 -- 15:35:15 - <Info> - eve-log output device (regular) initialized: eve.json
+10/12/2024 -- 15:35:15 - <Info> - stats output device (regular) initialized: stats.log
+10/12/2024 -- 15:35:15 - <Info> - Running in live mode, activating unix socket
+10/12/2024 -- 15:35:16 - <Info> - 1 rule files processed. 25362 rules successfully loaded, 0 rules failed
+10/12/2024 -- 15:35:16 - <Info> - Threshold config parsed: 0 rule(s) found
+10/12/2024 -- 15:35:16 - <Info> - 25365 signatures processed. 1270 are IP-only rules, 4092 are inspecting packet payload, 19799 inspect application layer, 108 are decoder event only
+10/12/2024 -- 15:35:22 - <Info> - Going to use 8 thread(s)
+10/12/2024 -- 15:35:22 - <Info> - Running in live mode, activating unix socket
+10/12/2024 -- 15:35:22 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+10/12/2024 -- 15:35:22 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+10/12/2024 -- 15:35:22 - <Info> - All AFP capture threads are running.
+10/12/2024 -- 16:06:25 - <Notice> - Signal Received.  Stopping engine.
+10/12/2024 -- 16:06:25 - <Info> - time elapsed 1863.143s
+10/12/2024 -- 16:06:25 - <Info> - Alerts: 0
+10/12/2024 -- 16:06:26 - <Info> - cleaning up signature grouping structure... complete
+10/12/2024 -- 16:06:26 - <Notice> - Stats for 'eth0':  pkts: 0, drop: 0 (nan%), invalid chksum: 0
+10/12/2024 -- 16:06:27 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+10/12/2024 -- 16:06:27 - <Info> - CPUs/cores online: 8
+10/12/2024 -- 16:06:27 - <Info> - Found an MTU of 1500 for 'eth0'
+10/12/2024 -- 16:06:27 - <Info> - Found an MTU of 1500 for 'eth0'
+10/12/2024 -- 16:06:27 - <Info> - fast output device (regular) initialized: fast.log
+10/12/2024 -- 16:06:27 - <Info> - eve-log output device (regular) initialized: eve.json
+10/12/2024 -- 16:06:27 - <Info> - stats output device (regular) initialized: stats.log
+10/12/2024 -- 16:06:27 - <Info> - Running in live mode, activating unix socket
+10/12/2024 -- 16:06:28 - <Info> - 1 rule files processed. 25362 rules successfully loaded, 0 rules failed
+10/12/2024 -- 16:06:28 - <Info> - Threshold config parsed: 0 rule(s) found
+10/12/2024 -- 16:06:28 - <Info> - 25365 signatures processed. 1270 are IP-only rules, 4092 are inspecting packet payload, 19799 inspect application layer, 108 are decoder event only
+10/12/2024 -- 16:06:33 - <Info> - Going to use 8 thread(s)
+10/12/2024 -- 16:06:33 - <Info> - Running in live mode, activating unix socket
+10/12/2024 -- 16:06:33 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+10/12/2024 -- 16:06:33 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+10/12/2024 -- 16:06:34 - <Info> - All AFP capture threads are running.
+10/12/2024 -- 16:13:39 - <Notice> - Signal Received.  Stopping engine.
+10/12/2024 -- 16:13:39 - <Info> - time elapsed 425.612s
+10/12/2024 -- 16:13:39 - <Info> - Alerts: 0
+10/12/2024 -- 16:13:40 - <Info> - cleaning up signature grouping structure... complete
+10/12/2024 -- 16:13:40 - <Notice> - Stats for 'eth0':  pkts: 3, drop: 0 (0.00%), invalid chksum: 0
+23/12/2024 -- 14:35:35 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+23/12/2024 -- 14:35:35 - <Info> - CPUs/cores online: 8
+23/12/2024 -- 14:35:35 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 14:35:35 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 14:35:35 - <Info> - fast output device (regular) initialized: fast.log
+23/12/2024 -- 14:35:35 - <Info> - eve-log output device (regular) initialized: eve.json
+23/12/2024 -- 14:35:35 - <Info> - stats output device (regular) initialized: stats.log
+23/12/2024 -- 14:35:35 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 14:35:36 - <Info> - 1 rule files processed. 25362 rules successfully loaded, 0 rules failed
+23/12/2024 -- 14:35:36 - <Info> - Threshold config parsed: 0 rule(s) found
+23/12/2024 -- 14:35:36 - <Info> - 25365 signatures processed. 1270 are IP-only rules, 4092 are inspecting packet payload, 19799 inspect application layer, 108 are decoder event only
+23/12/2024 -- 14:35:42 - <Info> - Going to use 8 thread(s)
+23/12/2024 -- 14:35:42 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 14:35:42 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/12/2024 -- 14:35:42 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+23/12/2024 -- 14:35:42 - <Info> - All AFP capture threads are running.
+23/12/2024 -- 14:40:07 - <Notice> - Signal Received.  Stopping engine.
+23/12/2024 -- 14:40:07 - <Info> - time elapsed 265.840s
+23/12/2024 -- 14:40:08 - <Info> - Alerts: 0
+23/12/2024 -- 14:40:08 - <Info> - cleaning up signature grouping structure... complete
+23/12/2024 -- 14:40:08 - <Notice> - Stats for 'eth0':  pkts: 3, drop: 0 (0.00%), invalid chksum: 0
+23/12/2024 -- 14:40:15 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+23/12/2024 -- 14:40:15 - <Info> - CPUs/cores online: 8
+23/12/2024 -- 14:40:15 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 14:40:15 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 14:40:15 - <Info> - fast output device (regular) initialized: fast.log
+23/12/2024 -- 14:40:15 - <Info> - eve-log output device (regular) initialized: eve.json
+23/12/2024 -- 14:40:15 - <Info> - stats output device (regular) initialized: stats.log
+23/12/2024 -- 14:40:15 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 14:40:16 - <Info> - 1 rule files processed. 25362 rules successfully loaded, 0 rules failed
+23/12/2024 -- 14:40:16 - <Info> - Threshold config parsed: 0 rule(s) found
+23/12/2024 -- 14:40:16 - <Info> - 25365 signatures processed. 1270 are IP-only rules, 4092 are inspecting packet payload, 19799 inspect application layer, 108 are decoder event only
+23/12/2024 -- 14:40:22 - <Info> - Going to use 8 thread(s)
+23/12/2024 -- 14:40:22 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 14:40:22 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/12/2024 -- 14:40:22 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+23/12/2024 -- 14:40:22 - <Info> - All AFP capture threads are running.
+23/12/2024 -- 15:39:11 - <Notice> - Signal Received.  Stopping engine.
+23/12/2024 -- 15:39:11 - <Info> - time elapsed 3529.695s
+23/12/2024 -- 15:39:12 - <Info> - Alerts: 0
+23/12/2024 -- 15:39:12 - <Info> - cleaning up signature grouping structure... complete
+23/12/2024 -- 15:39:12 - <Notice> - Stats for 'eth0':  pkts: 101, drop: 0 (0.00%), invalid chksum: 0
+23/12/2024 -- 15:39:22 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+23/12/2024 -- 15:39:22 - <Info> - CPUs/cores online: 8
+23/12/2024 -- 15:39:22 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 15:39:22 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 15:39:22 - <Info> - fast output device (regular) initialized: fast.log
+23/12/2024 -- 15:39:22 - <Info> - eve-log output device (regular) initialized: eve.json
+23/12/2024 -- 15:39:22 - <Info> - stats output device (regular) initialized: stats.log
+23/12/2024 -- 15:39:22 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 15:39:23 - <Info> - 1 rule files processed. 25362 rules successfully loaded, 0 rules failed
+23/12/2024 -- 15:39:23 - <Info> - Threshold config parsed: 0 rule(s) found
+23/12/2024 -- 15:39:23 - <Info> - 25365 signatures processed. 1270 are IP-only rules, 4092 are inspecting packet payload, 19799 inspect application layer, 108 are decoder event only
+23/12/2024 -- 15:39:29 - <Info> - Going to use 8 thread(s)
+23/12/2024 -- 15:39:29 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 15:39:29 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/12/2024 -- 15:39:29 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+23/12/2024 -- 15:39:29 - <Info> - All AFP capture threads are running.
+23/12/2024 -- 15:44:04 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+23/12/2024 -- 15:44:04 - <Info> - CPUs/cores online: 8
+23/12/2024 -- 15:44:04 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 15:44:04 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 15:44:04 - <Info> - fast output device (regular) initialized: fast.log
+23/12/2024 -- 15:44:04 - <Info> - eve-log output device (regular) initialized: eve.json
+23/12/2024 -- 15:44:04 - <Info> - stats output device (regular) initialized: stats.log
+23/12/2024 -- 15:44:04 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 15:44:05 - <Info> - 1 rule files processed. 25362 rules successfully loaded, 0 rules failed
+23/12/2024 -- 15:44:05 - <Info> - Threshold config parsed: 0 rule(s) found
+23/12/2024 -- 15:44:05 - <Info> - 25365 signatures processed. 1270 are IP-only rules, 4092 are inspecting packet payload, 19799 inspect application layer, 108 are decoder event only
+23/12/2024 -- 15:44:11 - <Info> - Going to use 8 thread(s)
+23/12/2024 -- 15:44:11 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 15:44:11 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/12/2024 -- 15:44:11 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+23/12/2024 -- 15:44:11 - <Info> - All AFP capture threads are running.
+23/12/2024 -- 15:50:22 - <Notice> - Signal Received.  Stopping engine.
+23/12/2024 -- 15:50:22 - <Info> - time elapsed 653.389s
+23/12/2024 -- 15:50:22 - <Info> - Alerts: 0
+23/12/2024 -- 15:50:23 - <Info> - cleaning up signature grouping structure... complete
+23/12/2024 -- 15:50:23 - <Notice> - Stats for 'eth0':  pkts: 10963, drop: 0 (0.00%), invalid chksum: 0
+23/12/2024 -- 15:50:29 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+23/12/2024 -- 15:50:29 - <Info> - CPUs/cores online: 8
+23/12/2024 -- 15:50:29 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 15:50:29 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 15:50:29 - <Info> - fast output device (regular) initialized: fast.log
+23/12/2024 -- 15:50:29 - <Info> - eve-log output device (regular) initialized: eve.json
+23/12/2024 -- 15:50:29 - <Info> - stats output device (regular) initialized: stats.log
+23/12/2024 -- 15:50:29 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 15:50:29 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+23/12/2024 -- 15:50:29 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+23/12/2024 -- 15:50:29 - <Info> - Threshold config parsed: 0 rule(s) found
+23/12/2024 -- 15:50:29 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+23/12/2024 -- 15:50:29 - <Info> - Going to use 8 thread(s)
+23/12/2024 -- 15:50:29 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 15:50:29 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/12/2024 -- 15:50:29 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+23/12/2024 -- 15:50:29 - <Info> - All AFP capture threads are running.
+23/12/2024 -- 15:54:44 - <Notice> - Signal Received.  Stopping engine.
+23/12/2024 -- 15:54:44 - <Info> - time elapsed 254.934s
+23/12/2024 -- 15:54:44 - <Info> - Alerts: 0
+23/12/2024 -- 15:54:44 - <Info> - cleaning up signature grouping structure... complete
+23/12/2024 -- 15:54:44 - <Notice> - Stats for 'eth0':  pkts: 12478, drop: 0 (0.00%), invalid chksum: 0
+23/12/2024 -- 15:54:44 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+23/12/2024 -- 15:54:44 - <Info> - CPUs/cores online: 8
+23/12/2024 -- 15:54:44 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 15:54:44 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 15:54:44 - <Info> - fast output device (regular) initialized: fast.log
+23/12/2024 -- 15:54:44 - <Info> - eve-log output device (regular) initialized: eve.json
+23/12/2024 -- 15:54:44 - <Info> - stats output device (regular) initialized: stats.log
+23/12/2024 -- 15:54:44 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 15:54:44 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+23/12/2024 -- 15:54:44 - <Info> - Threshold config parsed: 0 rule(s) found
+23/12/2024 -- 15:54:44 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+23/12/2024 -- 15:54:44 - <Info> - Going to use 8 thread(s)
+23/12/2024 -- 15:54:44 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 15:54:44 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/12/2024 -- 15:54:44 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+23/12/2024 -- 15:54:44 - <Info> - All AFP capture threads are running.
+23/12/2024 -- 15:55:41 - <Info> - Unix socket: lost connection with client
+23/12/2024 -- 15:57:31 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+23/12/2024 -- 15:57:31 - <Info> - CPUs/cores online: 8
+23/12/2024 -- 15:57:31 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 15:57:31 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 15:57:31 - <Info> - fast output device (regular) initialized: fast.log
+23/12/2024 -- 15:57:31 - <Info> - eve-log output device (regular) initialized: eve.json
+23/12/2024 -- 15:57:31 - <Info> - stats output device (regular) initialized: stats.log
+23/12/2024 -- 15:57:31 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 15:57:31 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+23/12/2024 -- 15:57:31 - <Info> - Threshold config parsed: 0 rule(s) found
+23/12/2024 -- 15:57:31 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+23/12/2024 -- 15:57:31 - <Info> - Going to use 8 thread(s)
+23/12/2024 -- 15:57:31 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 15:57:31 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/12/2024 -- 15:57:31 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+23/12/2024 -- 15:57:31 - <Info> - All AFP capture threads are running.
+23/12/2024 -- 16:24:10 - <Notice> - Signal Received.  Stopping engine.
+23/12/2024 -- 16:24:10 - <Info> - time elapsed 1765.978s
+23/12/2024 -- 16:24:10 - <Info> - Alerts: 1037
+23/12/2024 -- 16:24:11 - <Info> - cleaning up signature grouping structure... complete
+23/12/2024 -- 16:24:11 - <Notice> - Stats for 'eth0':  pkts: 10163, drop: 0 (0.00%), invalid chksum: 0
+23/12/2024 -- 16:24:21 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+23/12/2024 -- 16:24:21 - <Info> - CPUs/cores online: 8
+23/12/2024 -- 16:24:21 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 16:24:21 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 16:24:21 - <Info> - fast output device (regular) initialized: fast.log
+23/12/2024 -- 16:24:21 - <Info> - eve-log output device (regular) initialized: eve.json
+23/12/2024 -- 16:24:21 - <Info> - stats output device (regular) initialized: stats.log
+23/12/2024 -- 16:24:21 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 16:24:21 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+23/12/2024 -- 16:24:21 - <Info> - Threshold config parsed: 0 rule(s) found
+23/12/2024 -- 16:24:21 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+23/12/2024 -- 16:24:21 - <Info> - Going to use 8 thread(s)
+23/12/2024 -- 16:24:21 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 16:24:21 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/12/2024 -- 16:24:21 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+23/12/2024 -- 16:24:21 - <Info> - All AFP capture threads are running.
+23/12/2024 -- 16:24:26 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+23/12/2024 -- 16:24:26 - <Info> - CPUs/cores online: 8
+23/12/2024 -- 16:24:26 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 16:24:26 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 16:24:26 - <Info> - fast output device (regular) initialized: fast.log
+23/12/2024 -- 16:24:26 - <Info> - eve-log output device (regular) initialized: eve.json
+23/12/2024 -- 16:24:26 - <Info> - stats output device (regular) initialized: stats.log
+23/12/2024 -- 16:24:26 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 16:24:26 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+23/12/2024 -- 16:24:26 - <Info> - Threshold config parsed: 0 rule(s) found
+23/12/2024 -- 16:24:26 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+23/12/2024 -- 16:24:26 - <Info> - Going to use 8 thread(s)
+23/12/2024 -- 16:24:26 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 16:24:26 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/12/2024 -- 16:24:26 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+23/12/2024 -- 16:24:26 - <Info> - All AFP capture threads are running.
+23/12/2024 -- 16:27:25 - <Notice> - Signal Received.  Stopping engine.
+23/12/2024 -- 16:27:25 - <Info> - time elapsed 184.609s
+23/12/2024 -- 16:27:26 - <Info> - Alerts: 508
+23/12/2024 -- 16:27:26 - <Info> - cleaning up signature grouping structure... complete
+23/12/2024 -- 16:27:26 - <Notice> - Stats for 'eth0':  pkts: 1553, drop: 0 (0.00%), invalid chksum: 0
+23/12/2024 -- 16:28:51 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+23/12/2024 -- 16:28:51 - <Info> - CPUs/cores online: 8
+23/12/2024 -- 16:28:51 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 16:28:51 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 16:28:51 - <Info> - fast output device (regular) initialized: fast.log
+23/12/2024 -- 16:28:51 - <Info> - eve-log output device (regular) initialized: eve.json
+23/12/2024 -- 16:28:51 - <Info> - stats output device (regular) initialized: stats.log
+23/12/2024 -- 16:28:51 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 16:28:51 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+23/12/2024 -- 16:28:51 - <Info> - Threshold config parsed: 0 rule(s) found
+23/12/2024 -- 16:28:51 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+23/12/2024 -- 16:28:51 - <Info> - Going to use 8 thread(s)
+23/12/2024 -- 16:28:51 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 16:28:51 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/12/2024 -- 16:28:51 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+23/12/2024 -- 16:28:52 - <Info> - All AFP capture threads are running.
+23/12/2024 -- 16:29:15 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+23/12/2024 -- 16:29:15 - <Info> - CPUs/cores online: 8
+23/12/2024 -- 16:29:15 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 16:29:15 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 16:29:15 - <Info> - fast output device (regular) initialized: fast.log
+23/12/2024 -- 16:29:15 - <Info> - eve-log output device (regular) initialized: eve.json
+23/12/2024 -- 16:29:15 - <Info> - stats output device (regular) initialized: stats.log
+23/12/2024 -- 16:29:15 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 16:29:15 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+23/12/2024 -- 16:29:15 - <Info> - Threshold config parsed: 0 rule(s) found
+23/12/2024 -- 16:29:15 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+23/12/2024 -- 16:29:15 - <Info> - Going to use 8 thread(s)
+23/12/2024 -- 16:29:15 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 16:29:15 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/12/2024 -- 16:29:15 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+23/12/2024 -- 16:29:16 - <Info> - All AFP capture threads are running.
+23/12/2024 -- 16:31:57 - <Notice> - Signal Received.  Stopping engine.
+23/12/2024 -- 16:31:57 - <Info> - time elapsed 185.823s
+23/12/2024 -- 16:31:57 - <Info> - Alerts: 0
+23/12/2024 -- 16:31:58 - <Info> - cleaning up signature grouping structure... complete
+23/12/2024 -- 16:31:58 - <Notice> - Stats for 'eth0':  pkts: 16, drop: 0 (0.00%), invalid chksum: 0
+23/12/2024 -- 16:32:09 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+23/12/2024 -- 16:32:09 - <Info> - CPUs/cores online: 8
+23/12/2024 -- 16:32:09 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 16:32:09 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 16:32:09 - <Info> - fast output device (regular) initialized: fast.log
+23/12/2024 -- 16:32:09 - <Info> - eve-log output device (regular) initialized: eve.json
+23/12/2024 -- 16:32:09 - <Info> - stats output device (regular) initialized: stats.log
+23/12/2024 -- 16:32:09 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 16:32:09 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+23/12/2024 -- 16:32:09 - <Info> - Threshold config parsed: 0 rule(s) found
+23/12/2024 -- 16:32:09 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+23/12/2024 -- 16:32:09 - <Info> - Going to use 8 thread(s)
+23/12/2024 -- 16:32:09 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 16:32:09 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/12/2024 -- 16:32:09 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+23/12/2024 -- 16:32:09 - <Info> - All AFP capture threads are running.
+23/12/2024 -- 16:34:59 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+23/12/2024 -- 16:34:59 - <Info> - CPUs/cores online: 8
+23/12/2024 -- 16:34:59 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 16:34:59 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 16:34:59 - <Info> - fast output device (regular) initialized: fast.log
+23/12/2024 -- 16:34:59 - <Info> - eve-log output device (regular) initialized: eve.json
+23/12/2024 -- 16:34:59 - <Info> - stats output device (regular) initialized: stats.log
+23/12/2024 -- 16:34:59 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 16:34:59 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+23/12/2024 -- 16:34:59 - <Info> - Threshold config parsed: 0 rule(s) found
+23/12/2024 -- 16:34:59 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+23/12/2024 -- 16:34:59 - <Info> - Going to use 8 thread(s)
+23/12/2024 -- 16:34:59 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 16:34:59 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/12/2024 -- 16:34:59 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+23/12/2024 -- 16:34:59 - <Info> - All AFP capture threads are running.
+23/12/2024 -- 16:48:57 - <Notice> - Signal Received.  Stopping engine.
+23/12/2024 -- 16:48:57 - <Info> - time elapsed 1008.100s
+23/12/2024 -- 16:48:57 - <Info> - Alerts: 0
+23/12/2024 -- 16:48:57 - <Info> - cleaning up signature grouping structure... complete
+23/12/2024 -- 16:48:57 - <Notice> - Stats for 'eth0':  pkts: 8, drop: 0 (0.00%), invalid chksum: 0
+23/12/2024 -- 16:49:02 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+23/12/2024 -- 16:49:02 - <Info> - CPUs/cores online: 8
+23/12/2024 -- 16:49:02 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 16:49:02 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 16:49:02 - <Info> - fast output device (regular) initialized: fast.log
+23/12/2024 -- 16:49:02 - <Info> - eve-log output device (regular) initialized: eve.json
+23/12/2024 -- 16:49:02 - <Info> - stats output device (regular) initialized: stats.log
+23/12/2024 -- 16:49:02 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 16:49:02 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+23/12/2024 -- 16:49:02 - <Info> - Threshold config parsed: 0 rule(s) found
+23/12/2024 -- 16:49:02 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+23/12/2024 -- 16:49:03 - <Info> - Going to use 8 thread(s)
+23/12/2024 -- 16:49:03 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 16:49:03 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/12/2024 -- 16:49:03 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+23/12/2024 -- 16:49:03 - <Info> - All AFP capture threads are running.
+23/12/2024 -- 16:49:10 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+23/12/2024 -- 16:49:10 - <Info> - CPUs/cores online: 8
+23/12/2024 -- 16:49:10 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 16:49:10 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 16:49:10 - <Info> - fast output device (regular) initialized: fast.log
+23/12/2024 -- 16:49:10 - <Info> - eve-log output device (regular) initialized: eve.json
+23/12/2024 -- 16:49:10 - <Info> - stats output device (regular) initialized: stats.log
+23/12/2024 -- 16:49:10 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 16:49:10 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+23/12/2024 -- 16:49:10 - <Info> - Threshold config parsed: 0 rule(s) found
+23/12/2024 -- 16:49:10 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+23/12/2024 -- 16:49:10 - <Info> - Going to use 8 thread(s)
+23/12/2024 -- 16:49:10 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 16:49:10 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/12/2024 -- 16:49:10 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+23/12/2024 -- 16:49:11 - <Info> - All AFP capture threads are running.
+23/12/2024 -- 16:54:58 - <Notice> - Signal Received.  Stopping engine.
+23/12/2024 -- 16:54:58 - <Info> - time elapsed 355.342s
+23/12/2024 -- 16:54:58 - <Info> - Alerts: 0
+23/12/2024 -- 16:54:58 - <Info> - cleaning up signature grouping structure... complete
+23/12/2024 -- 16:54:58 - <Notice> - Stats for 'eth0':  pkts: 8, drop: 0 (0.00%), invalid chksum: 0
+23/12/2024 -- 16:55:05 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+23/12/2024 -- 16:55:05 - <Info> - CPUs/cores online: 8
+23/12/2024 -- 16:55:05 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 16:55:05 - <Info> - Found an MTU of 1500 for 'eth0'
+23/12/2024 -- 16:55:05 - <Info> - fast output device (regular) initialized: fast.log
+23/12/2024 -- 16:55:05 - <Info> - eve-log output device (regular) initialized: eve.json
+23/12/2024 -- 16:55:05 - <Info> - stats output device (regular) initialized: stats.log
+23/12/2024 -- 16:55:05 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 16:55:05 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+23/12/2024 -- 16:55:05 - <Info> - Threshold config parsed: 0 rule(s) found
+23/12/2024 -- 16:55:05 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+23/12/2024 -- 16:55:05 - <Info> - Going to use 8 thread(s)
+23/12/2024 -- 16:55:05 - <Info> - Running in live mode, activating unix socket
+23/12/2024 -- 16:55:05 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/12/2024 -- 16:55:05 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+23/12/2024 -- 16:55:05 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 07:15:44 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 07:15:44 - <Info> - time elapsed 51638.734s
+24/12/2024 -- 07:15:44 - <Info> - Alerts: 1
+24/12/2024 -- 07:15:44 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 07:15:44 - <Notice> - Stats for 'eth0':  pkts: 8, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 07:15:54 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 07:15:54 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 07:15:54 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 07:15:54 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 07:15:54 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 07:15:54 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 07:15:54 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 07:15:54 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 07:15:54 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 07:15:54 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 07:15:54 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 07:15:54 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 07:15:54 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 07:15:54 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 07:15:54 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 07:15:55 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 07:28:44 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 07:28:44 - <Info> - time elapsed 769.861s
+24/12/2024 -- 07:28:45 - <Info> - Alerts: 0
+24/12/2024 -- 07:28:45 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 07:28:45 - <Notice> - Stats for 'eth0':  pkts: 7, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 07:28:51 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 07:28:51 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 07:28:51 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 07:28:51 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 07:28:51 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 07:28:51 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 07:28:51 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 07:28:51 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 07:28:51 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 07:28:51 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 07:28:51 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 07:28:51 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 07:28:51 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 07:28:51 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 07:28:51 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 07:28:51 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 08:34:44 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 08:34:44 - <Info> - time elapsed 3953.144s
+24/12/2024 -- 08:34:45 - <Info> - Alerts: 0
+24/12/2024 -- 08:34:45 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 08:34:45 - <Notice> - Stats for 'eth0':  pkts: 7, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 08:38:15 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 08:38:15 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 08:38:15 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 08:38:15 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 08:38:15 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 08:38:15 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 08:38:15 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 08:38:15 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 08:38:15 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 08:38:15 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 08:38:15 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 08:38:15 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 08:38:15 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 08:38:15 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 08:38:15 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 08:38:15 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 08:47:20 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 08:47:20 - <Info> - time elapsed 545.585s
+24/12/2024 -- 08:47:21 - <Info> - Alerts: 0
+24/12/2024 -- 08:47:21 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 08:47:21 - <Notice> - Stats for 'eth0':  pkts: 7, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 08:51:18 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 08:51:18 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 08:51:18 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 08:51:18 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 08:51:18 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 08:51:18 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 08:51:18 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 08:51:18 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 08:51:18 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 08:51:18 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 08:51:18 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 08:51:18 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 08:51:18 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 08:51:18 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 08:51:18 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 08:51:18 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 08:51:25 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 08:51:25 - <Info> - time elapsed 7.137s
+24/12/2024 -- 08:51:25 - <Info> - Alerts: 0
+24/12/2024 -- 08:51:26 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 08:51:26 - <Notice> - Stats for 'eth0':  pkts: 7, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 08:56:28 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 08:56:28 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 08:56:28 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 08:56:28 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 08:56:28 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 08:56:28 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 08:56:28 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 08:56:28 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 08:56:28 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 08:56:28 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 08:56:28 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 08:56:28 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 08:56:28 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 08:56:28 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 08:56:28 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 08:56:28 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 08:58:51 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 08:58:51 - <Info> - time elapsed 143.051s
+24/12/2024 -- 08:58:51 - <Info> - Alerts: 0
+24/12/2024 -- 08:58:51 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 08:58:51 - <Notice> - Stats for 'eth0':  pkts: 14, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 08:59:17 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 08:59:17 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 08:59:17 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 08:59:17 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 08:59:17 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 08:59:17 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 08:59:17 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 08:59:17 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 08:59:17 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 08:59:17 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 08:59:17 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 08:59:17 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 08:59:17 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 08:59:17 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 08:59:17 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 08:59:17 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 09:00:30 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 09:00:30 - <Info> - time elapsed 72.924s
+24/12/2024 -- 09:00:30 - <Info> - Alerts: 0
+24/12/2024 -- 09:00:30 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 09:00:30 - <Notice> - Stats for 'eth0':  pkts: 6, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 09:00:45 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 09:00:45 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 09:00:45 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 09:00:45 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 09:00:45 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 09:00:45 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 09:00:45 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 09:00:45 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 09:00:45 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 09:00:45 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 09:00:45 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 09:00:45 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 09:00:45 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 09:00:45 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 09:00:45 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 09:00:45 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 09:01:37 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 09:01:37 - <Info> - time elapsed 51.877s
+24/12/2024 -- 09:01:37 - <Info> - Alerts: 0
+24/12/2024 -- 09:01:37 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 09:01:37 - <Notice> - Stats for 'eth0':  pkts: 8, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 09:01:38 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 09:01:38 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 09:01:38 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 09:01:38 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 09:01:39 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 09:01:39 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 09:01:39 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 09:01:39 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 09:01:39 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 09:01:39 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 09:01:39 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 09:01:39 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 09:01:39 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 09:01:39 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 09:01:39 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 09:01:39 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 09:02:44 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 09:02:44 - <Info> - time elapsed 65.856s
+24/12/2024 -- 09:02:45 - <Info> - Alerts: 0
+24/12/2024 -- 09:02:45 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 09:02:45 - <Notice> - Stats for 'eth0':  pkts: 8, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 09:02:46 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 09:02:46 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 09:02:46 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 09:02:46 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 09:02:46 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 09:02:46 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 09:02:46 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 09:02:46 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 09:02:46 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 09:02:46 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 09:02:46 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 09:02:46 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 09:02:46 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 09:02:46 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 09:02:46 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 09:02:46 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 09:03:05 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 09:03:05 - <Info> - time elapsed 19.160s
+24/12/2024 -- 09:03:05 - <Info> - Alerts: 0
+24/12/2024 -- 09:03:06 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 09:03:06 - <Notice> - Stats for 'eth0':  pkts: 8, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 09:03:16 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 09:03:16 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 09:03:16 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 09:03:16 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 09:03:16 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 09:03:16 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 09:03:16 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 09:03:16 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 09:03:16 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 09:03:16 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 09:03:16 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 09:03:16 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 09:03:16 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 09:03:16 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 09:03:16 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 09:03:16 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 09:04:11 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 09:04:11 - <Info> - time elapsed 55.129s
+24/12/2024 -- 09:04:11 - <Info> - Alerts: 0
+24/12/2024 -- 09:04:11 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 09:04:11 - <Notice> - Stats for 'eth0':  pkts: 8, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 09:04:13 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 09:04:13 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 09:04:13 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 09:04:13 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 09:04:13 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 09:04:13 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 09:04:13 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 09:04:13 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 09:04:13 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 09:04:13 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 09:04:13 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 09:04:13 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 09:04:13 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 09:04:13 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 09:04:13 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 09:04:13 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 09:06:48 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 09:06:48 - <Info> - time elapsed 155.052s
+24/12/2024 -- 09:06:49 - <Info> - Alerts: 0
+24/12/2024 -- 09:06:49 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 09:06:49 - <Notice> - Stats for 'eth0':  pkts: 8, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 09:06:50 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 09:06:50 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 09:06:50 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 09:06:50 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 09:06:50 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 09:06:50 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 09:06:50 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 09:06:50 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 09:06:50 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 09:06:50 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 09:06:50 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 09:06:50 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 09:06:50 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 09:06:50 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 09:06:50 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 09:06:50 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 09:08:38 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 09:08:38 - <Info> - time elapsed 108.040s
+24/12/2024 -- 09:08:38 - <Info> - Alerts: 0
+24/12/2024 -- 09:08:38 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 09:08:38 - <Notice> - Stats for 'eth0':  pkts: 7, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 09:08:39 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 09:08:39 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 09:08:39 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 09:08:39 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 09:08:39 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 09:08:39 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 09:08:39 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 09:08:39 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 09:08:39 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 09:08:39 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 09:08:39 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 09:08:39 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 09:08:39 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 09:08:39 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 09:08:39 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 09:08:40 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 09:16:32 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 09:16:32 - <Info> - time elapsed 472.603s
+24/12/2024 -- 09:16:32 - <Info> - Alerts: 0
+24/12/2024 -- 09:16:33 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 09:16:33 - <Notice> - Stats for 'eth0':  pkts: 10, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 09:17:19 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 09:17:19 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 09:17:19 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 09:17:19 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 09:17:19 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 09:17:19 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 09:17:19 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 09:17:19 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 09:17:19 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 09:17:19 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 09:17:19 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 09:17:19 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 09:17:19 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 09:17:19 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 09:17:19 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 09:17:19 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 09:24:58 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 09:24:58 - <Info> - time elapsed 458.971s
+24/12/2024 -- 09:24:58 - <Info> - Alerts: 0
+24/12/2024 -- 09:24:58 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 09:24:58 - <Notice> - Stats for 'eth0':  pkts: 11, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 09:25:00 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 09:25:00 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 09:25:00 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 09:25:00 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 09:25:00 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 09:25:00 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 09:25:00 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 09:25:00 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 09:25:00 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 09:25:00 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 09:25:00 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 09:25:00 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 09:25:00 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 09:25:00 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 09:25:00 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 09:25:00 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 09:26:14 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 09:26:15 - <Info> - time elapsed 74.627s
+24/12/2024 -- 09:26:15 - <Info> - Alerts: 0
+24/12/2024 -- 09:26:15 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 09:26:15 - <Notice> - Stats for 'eth0':  pkts: 9, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 09:26:16 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 09:26:16 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 09:26:16 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 09:26:16 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 09:26:17 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 09:26:17 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 09:26:17 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 09:26:17 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 09:26:17 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 09:26:17 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 09:26:17 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 09:26:17 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 09:26:17 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 09:26:17 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 09:26:17 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 09:26:17 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 09:29:52 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 09:29:52 - <Info> - time elapsed 215.675s
+24/12/2024 -- 09:29:52 - <Info> - Alerts: 0
+24/12/2024 -- 09:29:53 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 09:29:53 - <Notice> - Stats for 'eth0':  pkts: 11, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 09:29:54 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 09:29:54 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 09:29:54 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 09:29:54 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 09:29:54 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 09:29:54 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 09:29:54 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 09:29:54 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 09:29:54 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 09:29:54 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 09:29:54 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 09:29:54 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 09:29:54 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 09:29:54 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 09:29:54 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 09:29:55 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 09:29:57 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 09:29:57 - <Info> - time elapsed 2.338s
+24/12/2024 -- 09:29:57 - <Info> - Alerts: 0
+24/12/2024 -- 09:29:57 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 09:29:57 - <Notice> - Stats for 'eth0':  pkts: 9, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 09:30:07 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 09:30:07 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 09:30:07 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 09:30:07 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 09:30:07 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 09:30:07 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 09:30:07 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 09:30:07 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 09:30:07 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 09:30:07 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 09:30:07 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 09:30:07 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 09:30:07 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 09:30:07 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 09:30:07 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 09:30:07 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 09:37:03 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 09:37:03 - <Info> - time elapsed 415.967s
+24/12/2024 -- 09:37:03 - <Info> - Alerts: 0
+24/12/2024 -- 09:37:04 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 09:37:04 - <Notice> - Stats for 'eth0':  pkts: 8, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 09:37:05 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 09:37:05 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 09:37:05 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 09:37:05 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 09:37:05 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 09:37:05 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 09:37:05 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 09:37:05 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 09:37:05 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 09:37:05 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 09:37:05 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 09:37:05 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 09:37:05 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 09:37:05 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 09:37:05 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 09:37:05 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 10:14:45 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 10:14:45 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 10:14:45 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 10:14:45 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 10:14:45 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 10:14:45 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 10:14:45 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 10:14:45 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 10:14:45 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 10:14:45 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 10:14:45 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 10:14:45 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 10:14:45 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 10:14:45 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 10:14:45 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 10:14:45 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 11:23:07 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 11:23:07 - <Info> - time elapsed 6361.926s
+24/12/2024 -- 11:23:07 - <Info> - Alerts: 2259
+24/12/2024 -- 11:23:07 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 11:23:07 - <Notice> - Stats for 'eth0':  pkts: 2268, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 11:23:09 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 11:23:09 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 11:23:09 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 11:23:09 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 11:23:09 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 11:23:09 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 11:23:09 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 11:23:09 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 11:23:09 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 11:23:09 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 11:23:09 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 11:23:09 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 11:23:09 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 11:23:09 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 11:23:09 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 11:23:09 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 12:35:02 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 12:35:02 - <Info> - time elapsed 4313.019s
+24/12/2024 -- 12:35:02 - <Info> - Alerts: 3
+24/12/2024 -- 12:35:03 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 12:35:03 - <Notice> - Stats for 'eth0':  pkts: 16, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 12:35:05 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 12:35:05 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 12:35:05 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 12:35:05 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 12:35:05 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 12:35:05 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 12:35:05 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 12:35:05 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 12:35:05 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 12:35:05 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 12:35:05 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 12:35:05 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 12:35:05 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 12:35:05 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 12:35:05 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 12:35:05 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 12:42:03 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 12:42:03 - <Info> - time elapsed 418.388s
+24/12/2024 -- 12:42:03 - <Info> - Alerts: 0
+24/12/2024 -- 12:42:03 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 12:42:03 - <Notice> - Stats for 'eth0':  pkts: 9, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 12:43:35 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 12:43:35 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 12:43:35 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 12:43:35 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 12:43:35 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 12:43:35 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 12:43:35 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 12:43:35 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 12:43:35 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 12:43:35 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 12:43:35 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 12:43:35 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 12:43:35 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 12:43:35 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 12:43:35 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 12:43:36 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 14:56:37 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 14:56:37 - <Info> - time elapsed 7981.959s
+24/12/2024 -- 14:56:38 - <Info> - Alerts: 2
+24/12/2024 -- 14:56:38 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 14:56:38 - <Notice> - Stats for 'eth0':  pkts: 15, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 14:56:39 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 14:56:39 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 14:56:39 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 14:56:39 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 14:56:39 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 14:56:39 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 14:56:39 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 14:56:39 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 14:56:39 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 14:56:39 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 14:56:39 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 14:56:39 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 14:56:39 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 14:56:39 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 14:56:39 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 14:56:39 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 16:02:36 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 16:02:36 - <Info> - time elapsed 3957.090s
+24/12/2024 -- 16:02:37 - <Info> - Alerts: 0
+24/12/2024 -- 16:02:37 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 16:02:37 - <Notice> - Stats for 'eth0':  pkts: 8, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 16:02:38 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 16:02:38 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 16:02:38 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 16:02:38 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 16:02:38 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 16:02:38 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 16:02:38 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 16:02:38 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 16:02:38 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 16:02:38 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 16:02:38 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 16:02:38 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 16:02:38 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 16:02:38 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 16:02:38 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 16:02:39 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 16:03:25 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 16:03:25 - <Info> - time elapsed 46.579s
+24/12/2024 -- 16:03:25 - <Info> - Alerts: 0
+24/12/2024 -- 16:03:25 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 16:03:25 - <Notice> - Stats for 'eth0':  pkts: 14, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 16:03:37 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 16:03:37 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 16:03:37 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 16:03:37 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 16:03:37 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 16:03:37 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 16:03:37 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 16:03:37 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 16:03:37 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 16:03:37 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 16:03:37 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 16:03:37 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 16:03:37 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 16:03:37 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 16:03:37 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 16:03:37 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 16:06:19 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 16:06:19 - <Info> - time elapsed 161.895s
+24/12/2024 -- 16:06:19 - <Info> - Alerts: 0
+24/12/2024 -- 16:06:19 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 16:06:19 - <Notice> - Stats for 'eth0':  pkts: 12, drop: 0 (0.00%), invalid chksum: 3
+24/12/2024 -- 16:06:20 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 16:06:20 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 16:06:20 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 16:06:20 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 16:06:20 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 16:06:20 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 16:06:20 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 16:06:20 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 16:06:20 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 16:06:20 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 16:06:20 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 16:06:21 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 16:06:21 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 16:06:21 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 16:06:21 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 16:06:21 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 16:07:54 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 16:07:54 - <Info> - time elapsed 93.654s
+24/12/2024 -- 16:07:54 - <Info> - Alerts: 0
+24/12/2024 -- 16:07:55 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 16:07:55 - <Notice> - Stats for 'eth0':  pkts: 8, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 16:08:06 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 16:08:06 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 16:08:06 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 16:08:06 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 16:08:06 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 16:08:06 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 16:08:06 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 16:08:06 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 16:08:06 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 16:08:06 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 16:08:06 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 16:08:06 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 16:08:06 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 16:08:06 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 16:08:06 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 16:08:06 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 20:31:52 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 20:31:52 - <Info> - time elapsed 15826.114s
+24/12/2024 -- 20:31:52 - <Info> - Alerts: 0
+24/12/2024 -- 20:31:53 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 20:31:53 - <Notice> - Stats for 'eth0':  pkts: 10, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 20:32:04 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 20:32:04 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 20:32:04 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 20:32:04 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 20:32:04 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 20:32:04 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 20:32:04 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 20:32:04 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 20:32:04 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 20:32:04 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 20:32:04 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 20:32:04 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 20:32:04 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 20:32:04 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 20:32:04 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 20:32:04 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 20:34:17 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 20:34:17 - <Info> - time elapsed 133.163s
+24/12/2024 -- 20:34:17 - <Info> - Alerts: 0
+24/12/2024 -- 20:34:17 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 20:34:17 - <Notice> - Stats for 'eth0':  pkts: 9, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 20:34:18 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 20:34:18 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 20:34:18 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 20:34:18 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 20:34:18 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 20:34:18 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 20:34:18 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 20:34:18 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 20:34:18 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 20:34:18 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 20:34:18 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 20:34:18 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 20:34:18 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 20:34:18 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 20:34:18 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 20:34:19 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 20:34:21 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 20:34:21 - <Info> - time elapsed 2.689s
+24/12/2024 -- 20:34:21 - <Info> - Alerts: 0
+24/12/2024 -- 20:34:21 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 20:34:21 - <Notice> - Stats for 'eth0':  pkts: 10, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 20:34:31 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 20:34:31 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 20:34:31 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 20:34:31 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 20:34:31 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 20:34:31 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 20:34:31 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 20:34:31 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 20:34:31 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 20:34:31 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 20:34:31 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 20:34:31 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 20:34:31 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 20:34:31 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 20:34:31 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 20:34:32 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 20:51:04 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 20:51:05 - <Info> - time elapsed 993.091s
+24/12/2024 -- 20:51:05 - <Info> - Alerts: 0
+24/12/2024 -- 20:51:05 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 20:51:05 - <Notice> - Stats for 'eth0':  pkts: 11, drop: 0 (0.00%), invalid chksum: 1
+24/12/2024 -- 20:51:06 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 20:51:06 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 20:51:06 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 20:51:06 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 20:51:06 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 20:51:06 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 20:51:06 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 20:51:06 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 20:51:06 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 20:51:06 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 20:51:06 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 20:51:06 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 20:51:06 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 20:51:06 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 20:51:06 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 20:51:07 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 20:51:48 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 20:51:48 - <Info> - time elapsed 42.055s
+24/12/2024 -- 20:51:49 - <Info> - Alerts: 0
+24/12/2024 -- 20:51:49 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 20:51:49 - <Notice> - Stats for 'eth0':  pkts: 13, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 20:51:50 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 20:51:50 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 20:51:50 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 20:51:50 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 20:51:50 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 20:51:50 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 20:51:50 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 20:51:50 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 20:51:50 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 20:51:50 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 20:51:50 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 20:51:50 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 20:51:50 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 20:51:50 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 20:51:50 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 20:51:50 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 21:00:40 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 21:00:40 - <Info> - time elapsed 530.035s
+24/12/2024 -- 21:00:40 - <Info> - Alerts: 0
+24/12/2024 -- 21:00:40 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 21:00:40 - <Notice> - Stats for 'eth0':  pkts: 10, drop: 0 (0.00%), invalid chksum: 1
+24/12/2024 -- 21:00:42 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 21:00:42 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 21:00:42 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 21:00:42 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 21:00:42 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 21:00:42 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 21:00:42 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 21:00:42 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 21:00:42 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 21:00:42 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 21:00:42 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 21:00:42 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 21:00:42 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 21:00:42 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 21:00:42 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 21:00:42 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 21:03:19 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 21:03:19 - <Info> - time elapsed 156.883s
+24/12/2024 -- 21:03:19 - <Info> - Alerts: 0
+24/12/2024 -- 21:03:20 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 21:03:20 - <Notice> - Stats for 'eth0':  pkts: 7, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 21:03:21 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 21:03:21 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 21:03:21 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 21:03:21 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 21:03:21 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 21:03:21 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 21:03:21 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 21:03:21 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 21:03:21 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 21:03:21 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 21:03:21 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 21:03:21 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 21:03:21 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 21:03:21 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 21:03:21 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 21:03:21 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 21:13:40 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 21:13:40 - <Info> - time elapsed 619.530s
+24/12/2024 -- 21:13:40 - <Info> - Alerts: 1
+24/12/2024 -- 21:13:41 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 21:13:41 - <Notice> - Stats for 'eth0':  pkts: 12, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 21:13:47 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 21:13:47 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 21:13:47 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 21:13:47 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 21:13:47 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 21:13:47 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 21:13:47 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 21:13:47 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 21:13:47 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 21:13:47 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 21:13:47 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 21:13:47 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 21:13:47 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 21:13:47 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 21:13:47 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 21:13:47 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 21:47:26 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 21:47:26 - <Info> - time elapsed 2019.944s
+24/12/2024 -- 21:47:27 - <Info> - Alerts: 0
+24/12/2024 -- 21:47:27 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 21:47:27 - <Notice> - Stats for 'eth0':  pkts: 9, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 21:47:31 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 21:47:31 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 21:47:31 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 21:47:31 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 21:47:31 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 21:47:31 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 21:47:31 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 21:47:31 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 21:47:31 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 21:47:31 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 21:47:31 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 21:47:31 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 21:47:31 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 21:47:31 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 21:47:31 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 21:47:31 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 21:50:54 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 21:50:54 - <Info> - time elapsed 203.386s
+24/12/2024 -- 21:50:55 - <Info> - Alerts: 0
+24/12/2024 -- 21:50:55 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 21:50:55 - <Notice> - Stats for 'eth0':  pkts: 8, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 21:51:00 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 21:51:00 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 21:51:00 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 21:51:00 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 21:51:00 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 21:51:00 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 21:51:00 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 21:51:00 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 21:51:00 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 21:51:00 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 21:51:00 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 21:51:00 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 21:51:00 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 21:51:00 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 21:51:00 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 21:51:00 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 21:57:41 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 21:57:41 - <Info> - time elapsed 401.396s
+24/12/2024 -- 21:57:41 - <Info> - Alerts: 0
+24/12/2024 -- 21:57:41 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 21:57:41 - <Notice> - Stats for 'eth0':  pkts: 7, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 21:57:44 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 21:57:44 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 21:57:44 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 21:57:44 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 21:57:44 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 21:57:44 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 21:57:44 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 21:57:44 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 21:57:44 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 21:57:44 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 21:57:44 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 21:57:45 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 21:57:45 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 21:57:45 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 21:57:45 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 21:57:45 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 22:20:48 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 22:20:48 - <Info> - time elapsed 1383.554s
+24/12/2024 -- 22:20:48 - <Info> - Alerts: 0
+24/12/2024 -- 22:20:48 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 22:20:48 - <Notice> - Stats for 'eth0':  pkts: 7, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 22:20:54 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 22:20:54 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 22:20:54 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 22:20:54 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 22:20:54 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 22:20:54 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 22:20:54 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 22:20:54 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 22:20:54 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 22:20:54 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 22:20:54 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 22:20:54 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 22:20:54 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 22:20:54 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 22:20:54 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 22:20:54 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 22:21:25 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 22:21:25 - <Info> - time elapsed 31.724s
+24/12/2024 -- 22:21:26 - <Info> - Alerts: 0
+24/12/2024 -- 22:21:26 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 22:21:26 - <Notice> - Stats for 'eth0':  pkts: 10, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 22:21:38 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 22:21:38 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 22:21:38 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 22:21:38 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 22:21:38 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 22:21:38 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 22:21:38 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 22:21:38 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 22:21:38 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 22:21:38 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 22:21:38 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 22:21:38 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 22:21:38 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 22:21:38 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 22:21:38 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 22:21:38 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 22:24:17 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 22:24:17 - <Info> - time elapsed 158.707s
+24/12/2024 -- 22:24:17 - <Info> - Alerts: 0
+24/12/2024 -- 22:24:17 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 22:24:17 - <Notice> - Stats for 'eth0':  pkts: 7, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 22:24:20 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 22:24:20 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 22:24:20 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 22:24:20 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 22:24:20 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 22:24:20 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 22:24:20 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 22:24:20 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 22:24:20 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 22:24:20 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 22:24:20 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 22:24:20 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 22:24:20 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 22:24:20 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 22:24:20 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 22:24:21 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 22:24:36 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 22:24:36 - <Info> - time elapsed 15.957s
+24/12/2024 -- 22:24:37 - <Info> - Alerts: 0
+24/12/2024 -- 22:24:37 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 22:24:37 - <Notice> - Stats for 'eth0':  pkts: 10, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 22:24:52 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 22:24:52 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 22:24:52 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 22:24:52 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 22:24:52 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 22:24:52 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 22:24:52 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 22:24:52 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 22:24:52 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 22:24:52 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 22:24:52 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 22:24:52 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 22:24:52 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 22:24:52 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 22:24:52 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 22:24:52 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 22:25:29 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 22:25:29 - <Info> - time elapsed 36.557s
+24/12/2024 -- 22:25:29 - <Info> - Alerts: 0
+24/12/2024 -- 22:25:29 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 22:25:29 - <Notice> - Stats for 'eth0':  pkts: 10, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 22:25:35 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 22:25:35 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 22:25:35 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 22:25:35 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 22:25:35 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 22:25:35 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 22:25:35 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 22:25:35 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 22:25:35 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 22:25:35 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 22:25:35 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 22:25:35 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 22:25:35 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 22:25:35 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 22:25:35 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 22:25:35 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 22:27:55 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 22:27:56 - <Info> - time elapsed 140.809s
+24/12/2024 -- 22:27:56 - <Info> - Alerts: 0
+24/12/2024 -- 22:27:56 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 22:27:56 - <Notice> - Stats for 'eth0':  pkts: 8, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 22:28:28 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 22:28:28 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 22:28:28 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 22:28:28 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 22:28:29 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 22:28:29 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 22:28:29 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 22:28:29 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 22:28:29 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 22:28:29 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 22:28:29 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 22:28:29 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 22:28:29 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 22:28:29 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 22:28:29 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 22:28:29 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 22:28:52 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 22:28:52 - <Info> - time elapsed 23.804s
+24/12/2024 -- 22:28:53 - <Info> - Alerts: 0
+24/12/2024 -- 22:28:53 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 22:28:53 - <Notice> - Stats for 'eth0':  pkts: 10, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 22:29:05 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 22:29:05 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 22:29:05 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 22:29:05 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 22:29:05 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 22:29:05 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 22:29:05 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 22:29:05 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 22:29:05 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 22:29:05 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 22:29:05 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 22:29:05 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 22:29:05 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 22:29:05 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 22:29:05 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 22:29:05 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 22:53:57 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 22:53:57 - <Info> - time elapsed 1491.767s
+24/12/2024 -- 22:53:57 - <Info> - Alerts: 0
+24/12/2024 -- 22:53:57 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 22:53:57 - <Notice> - Stats for 'eth0':  pkts: 9, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 22:54:00 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 22:54:00 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 22:54:00 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 22:54:00 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 22:54:00 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 22:54:00 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 22:54:00 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 22:54:00 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 22:54:00 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 22:54:00 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 22:54:00 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 22:54:00 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 22:54:00 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 22:54:00 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 22:54:00 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 22:54:01 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 22:56:36 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 22:56:36 - <Info> - time elapsed 155.586s
+24/12/2024 -- 22:56:36 - <Info> - Alerts: 0
+24/12/2024 -- 22:56:36 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 22:56:36 - <Notice> - Stats for 'eth0':  pkts: 8, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 22:56:43 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 22:56:43 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 22:56:43 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 22:56:43 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 22:56:43 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 22:56:43 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 22:56:43 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 22:56:43 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 22:56:43 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 22:56:43 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 22:56:43 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 22:56:43 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 22:56:43 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 22:56:43 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 22:56:43 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 22:56:44 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 23:00:11 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 23:00:11 - <Info> - time elapsed 207.282s
+24/12/2024 -- 23:00:11 - <Info> - Alerts: 0
+24/12/2024 -- 23:00:11 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 23:00:11 - <Notice> - Stats for 'eth0':  pkts: 8, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 23:00:15 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 23:00:15 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 23:00:15 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 23:00:15 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 23:00:15 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 23:00:15 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 23:00:15 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 23:00:15 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 23:00:15 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 23:00:15 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 23:00:15 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 23:00:15 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 23:00:15 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 23:00:15 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 23:00:15 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 23:00:15 - <Info> - All AFP capture threads are running.
+24/12/2024 -- 23:01:35 - <Notice> - Signal Received.  Stopping engine.
+24/12/2024 -- 23:01:35 - <Info> - time elapsed 80.612s
+24/12/2024 -- 23:01:36 - <Info> - Alerts: 0
+24/12/2024 -- 23:01:36 - <Info> - cleaning up signature grouping structure... complete
+24/12/2024 -- 23:01:36 - <Notice> - Stats for 'eth0':  pkts: 10, drop: 0 (0.00%), invalid chksum: 0
+24/12/2024 -- 23:01:39 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+24/12/2024 -- 23:01:39 - <Info> - CPUs/cores online: 8
+24/12/2024 -- 23:01:39 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 23:01:39 - <Info> - Found an MTU of 1500 for 'eth0'
+24/12/2024 -- 23:01:39 - <Info> - fast output device (regular) initialized: fast.log
+24/12/2024 -- 23:01:39 - <Info> - eve-log output device (regular) initialized: eve.json
+24/12/2024 -- 23:01:39 - <Info> - stats output device (regular) initialized: stats.log
+24/12/2024 -- 23:01:39 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 23:01:39 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+24/12/2024 -- 23:01:39 - <Info> - Threshold config parsed: 0 rule(s) found
+24/12/2024 -- 23:01:39 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/12/2024 -- 23:01:39 - <Info> - Going to use 8 thread(s)
+24/12/2024 -- 23:01:39 - <Info> - Running in live mode, activating unix socket
+24/12/2024 -- 23:01:39 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/12/2024 -- 23:01:39 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/12/2024 -- 23:01:39 - <Info> - All AFP capture threads are running.
+25/12/2024 -- 21:14:25 - <Notice> - Signal Received.  Stopping engine.
+25/12/2024 -- 21:14:25 - <Info> - time elapsed 79966.336s
+25/12/2024 -- 21:14:25 - <Info> - Alerts: 1
+25/12/2024 -- 21:14:25 - <Info> - cleaning up signature grouping structure... complete
+25/12/2024 -- 21:14:25 - <Notice> - Stats for 'eth0':  pkts: 10, drop: 0 (0.00%), invalid chksum: 0
+25/12/2024 -- 21:14:30 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+25/12/2024 -- 21:14:30 - <Info> - CPUs/cores online: 8
+25/12/2024 -- 21:14:30 - <Info> - Found an MTU of 1500 for 'eth0'
+25/12/2024 -- 21:14:30 - <Info> - Found an MTU of 1500 for 'eth0'
+25/12/2024 -- 21:14:30 - <Info> - fast output device (regular) initialized: fast.log
+25/12/2024 -- 21:14:30 - <Info> - eve-log output device (regular) initialized: eve.json
+25/12/2024 -- 21:14:30 - <Info> - stats output device (regular) initialized: stats.log
+25/12/2024 -- 21:14:30 - <Info> - Running in live mode, activating unix socket
+25/12/2024 -- 21:14:30 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+25/12/2024 -- 21:14:30 - <Info> - Threshold config parsed: 0 rule(s) found
+25/12/2024 -- 21:14:30 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+25/12/2024 -- 21:14:30 - <Info> - Going to use 8 thread(s)
+25/12/2024 -- 21:14:30 - <Info> - Running in live mode, activating unix socket
+25/12/2024 -- 21:14:30 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+25/12/2024 -- 21:14:30 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+25/12/2024 -- 21:14:30 - <Info> - All AFP capture threads are running.
+25/12/2024 -- 21:19:26 - <Notice> - Signal Received.  Stopping engine.
+25/12/2024 -- 21:19:26 - <Info> - time elapsed 296.463s
+25/12/2024 -- 21:19:27 - <Info> - Alerts: 0
+25/12/2024 -- 21:19:27 - <Info> - cleaning up signature grouping structure... complete
+25/12/2024 -- 21:19:27 - <Notice> - Stats for 'eth0':  pkts: 7, drop: 0 (0.00%), invalid chksum: 0
+25/12/2024 -- 21:19:32 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+25/12/2024 -- 21:19:32 - <Info> - CPUs/cores online: 8
+25/12/2024 -- 21:19:32 - <Info> - Found an MTU of 1500 for 'eth0'
+25/12/2024 -- 21:19:32 - <Info> - Found an MTU of 1500 for 'eth0'
+25/12/2024 -- 21:19:32 - <Info> - fast output device (regular) initialized: fast.log
+25/12/2024 -- 21:19:32 - <Info> - eve-log output device (regular) initialized: eve.json
+25/12/2024 -- 21:19:32 - <Info> - stats output device (regular) initialized: stats.log
+25/12/2024 -- 21:19:32 - <Info> - Running in live mode, activating unix socket
+25/12/2024 -- 21:19:32 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+25/12/2024 -- 21:19:32 - <Info> - Threshold config parsed: 0 rule(s) found
+25/12/2024 -- 21:19:32 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+25/12/2024 -- 21:19:32 - <Info> - Going to use 8 thread(s)
+25/12/2024 -- 21:19:32 - <Info> - Running in live mode, activating unix socket
+25/12/2024 -- 21:19:32 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+25/12/2024 -- 21:19:32 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+25/12/2024 -- 21:19:33 - <Info> - All AFP capture threads are running.
+25/12/2024 -- 21:20:36 - <Notice> - Signal Received.  Stopping engine.
+25/12/2024 -- 21:20:37 - <Info> - time elapsed 64.223s
+25/12/2024 -- 21:20:37 - <Info> - Alerts: 0
+25/12/2024 -- 21:20:37 - <Info> - cleaning up signature grouping structure... complete
+25/12/2024 -- 21:20:37 - <Notice> - Stats for 'eth0':  pkts: 8, drop: 0 (0.00%), invalid chksum: 0
+25/12/2024 -- 21:20:42 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+25/12/2024 -- 21:20:42 - <Info> - CPUs/cores online: 8
+25/12/2024 -- 21:20:42 - <Info> - Found an MTU of 1500 for 'eth0'
+25/12/2024 -- 21:20:42 - <Info> - Found an MTU of 1500 for 'eth0'
+25/12/2024 -- 21:20:42 - <Info> - fast output device (regular) initialized: fast.log
+25/12/2024 -- 21:20:42 - <Info> - eve-log output device (regular) initialized: eve.json
+25/12/2024 -- 21:20:42 - <Info> - stats output device (regular) initialized: stats.log
+25/12/2024 -- 21:20:42 - <Info> - Running in live mode, activating unix socket
+25/12/2024 -- 21:20:42 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+25/12/2024 -- 21:20:42 - <Info> - Threshold config parsed: 0 rule(s) found
+25/12/2024 -- 21:20:42 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+25/12/2024 -- 21:20:42 - <Info> - Going to use 8 thread(s)
+25/12/2024 -- 21:20:42 - <Info> - Running in live mode, activating unix socket
+25/12/2024 -- 21:20:42 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+25/12/2024 -- 21:20:42 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+25/12/2024 -- 21:20:42 - <Info> - All AFP capture threads are running.
+28/12/2024 -- 06:19:59 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+28/12/2024 -- 06:19:59 - <Info> - CPUs/cores online: 8
+28/12/2024 -- 06:19:59 - <Info> - Found an MTU of 1500 for 'eth0'
+28/12/2024 -- 06:19:59 - <Info> - Found an MTU of 1500 for 'eth0'
+28/12/2024 -- 06:19:59 - <Info> - fast output device (regular) initialized: fast.log
+28/12/2024 -- 06:19:59 - <Info> - eve-log output device (regular) initialized: eve.json
+28/12/2024 -- 06:19:59 - <Info> - stats output device (regular) initialized: stats.log
+28/12/2024 -- 06:19:59 - <Info> - Running in live mode, activating unix socket
+28/12/2024 -- 06:19:59 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+28/12/2024 -- 06:19:59 - <Info> - Threshold config parsed: 0 rule(s) found
+28/12/2024 -- 06:19:59 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+28/12/2024 -- 06:19:59 - <Info> - Going to use 8 thread(s)
+28/12/2024 -- 06:19:59 - <Info> - Running in live mode, activating unix socket
+28/12/2024 -- 06:19:59 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+28/12/2024 -- 06:19:59 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+28/12/2024 -- 06:19:59 - <Info> - All AFP capture threads are running.
+28/12/2024 -- 06:21:21 - <Notice> - Signal Received.  Stopping engine.
+28/12/2024 -- 06:21:21 - <Info> - time elapsed 81.726s
+28/12/2024 -- 06:21:21 - <Info> - Alerts: 0
+28/12/2024 -- 06:21:21 - <Info> - cleaning up signature grouping structure... complete
+28/12/2024 -- 06:21:21 - <Notice> - Stats for 'eth0':  pkts: 15, drop: 0 (0.00%), invalid chksum: 0
+28/12/2024 -- 06:21:26 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+28/12/2024 -- 06:21:26 - <Info> - CPUs/cores online: 8
+28/12/2024 -- 06:21:26 - <Info> - Found an MTU of 1500 for 'eth0'
+28/12/2024 -- 06:21:26 - <Info> - Found an MTU of 1500 for 'eth0'
+28/12/2024 -- 06:21:26 - <Info> - fast output device (regular) initialized: fast.log
+28/12/2024 -- 06:21:26 - <Info> - eve-log output device (regular) initialized: eve.json
+28/12/2024 -- 06:21:26 - <Info> - stats output device (regular) initialized: stats.log
+28/12/2024 -- 06:21:26 - <Info> - Running in live mode, activating unix socket
+28/12/2024 -- 06:21:26 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+28/12/2024 -- 06:21:26 - <Info> - Threshold config parsed: 0 rule(s) found
+28/12/2024 -- 06:21:26 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+28/12/2024 -- 06:21:26 - <Info> - Going to use 8 thread(s)
+28/12/2024 -- 06:21:26 - <Info> - Running in live mode, activating unix socket
+28/12/2024 -- 06:21:26 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+28/12/2024 -- 06:21:26 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+28/12/2024 -- 06:21:26 - <Info> - All AFP capture threads are running.
+28/12/2024 -- 06:27:58 - <Notice> - Signal Received.  Stopping engine.
+28/12/2024 -- 06:27:58 - <Info> - time elapsed 392.437s
+28/12/2024 -- 06:27:58 - <Info> - Alerts: 0
+28/12/2024 -- 06:27:59 - <Info> - cleaning up signature grouping structure... complete
+28/12/2024 -- 06:27:59 - <Notice> - Stats for 'eth0':  pkts: 7, drop: 0 (0.00%), invalid chksum: 0
+28/12/2024 -- 06:28:01 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+28/12/2024 -- 06:28:01 - <Info> - CPUs/cores online: 8
+28/12/2024 -- 06:28:01 - <Info> - Found an MTU of 1500 for 'eth0'
+28/12/2024 -- 06:28:01 - <Info> - Found an MTU of 1500 for 'eth0'
+28/12/2024 -- 06:28:01 - <Info> - fast output device (regular) initialized: fast.log
+28/12/2024 -- 06:28:01 - <Info> - eve-log output device (regular) initialized: eve.json
+28/12/2024 -- 06:28:01 - <Info> - stats output device (regular) initialized: stats.log
+28/12/2024 -- 06:28:01 - <Info> - Running in live mode, activating unix socket
+28/12/2024 -- 06:28:01 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+28/12/2024 -- 06:28:01 - <Info> - Threshold config parsed: 0 rule(s) found
+28/12/2024 -- 06:28:01 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+28/12/2024 -- 06:28:01 - <Info> - Going to use 8 thread(s)
+28/12/2024 -- 06:28:01 - <Info> - Running in live mode, activating unix socket
+28/12/2024 -- 06:28:01 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+28/12/2024 -- 06:28:01 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+28/12/2024 -- 06:28:01 - <Info> - All AFP capture threads are running.
+28/12/2024 -- 06:29:48 - <Notice> - Signal Received.  Stopping engine.
+28/12/2024 -- 06:29:48 - <Info> - time elapsed 106.783s
+28/12/2024 -- 06:29:48 - <Info> - Alerts: 0
+28/12/2024 -- 06:29:48 - <Info> - cleaning up signature grouping structure... complete
+28/12/2024 -- 06:29:48 - <Notice> - Stats for 'eth0':  pkts: 8, drop: 0 (0.00%), invalid chksum: 0
+28/12/2024 -- 06:29:51 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+28/12/2024 -- 06:29:51 - <Info> - CPUs/cores online: 8
+28/12/2024 -- 06:29:51 - <Info> - Found an MTU of 1500 for 'eth0'
+28/12/2024 -- 06:29:51 - <Info> - Found an MTU of 1500 for 'eth0'
+28/12/2024 -- 06:29:51 - <Info> - fast output device (regular) initialized: fast.log
+28/12/2024 -- 06:29:51 - <Info> - eve-log output device (regular) initialized: eve.json
+28/12/2024 -- 06:29:51 - <Info> - stats output device (regular) initialized: stats.log
+28/12/2024 -- 06:29:51 - <Info> - Running in live mode, activating unix socket
+28/12/2024 -- 06:29:51 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+28/12/2024 -- 06:29:51 - <Info> - Threshold config parsed: 0 rule(s) found
+28/12/2024 -- 06:29:51 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+28/12/2024 -- 06:29:51 - <Info> - Going to use 8 thread(s)
+28/12/2024 -- 06:29:51 - <Info> - Running in live mode, activating unix socket
+28/12/2024 -- 06:29:51 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+28/12/2024 -- 06:29:51 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+28/12/2024 -- 06:29:51 - <Info> - All AFP capture threads are running.
+28/12/2024 -- 06:42:18 - <Notice> - Signal Received.  Stopping engine.
+28/12/2024 -- 06:42:19 - <Info> - time elapsed 747.366s
+28/12/2024 -- 06:42:19 - <Info> - Alerts: 0
+28/12/2024 -- 06:42:19 - <Info> - cleaning up signature grouping structure... complete
+28/12/2024 -- 06:42:19 - <Notice> - Stats for 'eth0':  pkts: 7, drop: 0 (0.00%), invalid chksum: 0
+28/12/2024 -- 06:42:22 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+28/12/2024 -- 06:42:22 - <Info> - CPUs/cores online: 8
+28/12/2024 -- 06:42:22 - <Info> - Found an MTU of 1500 for 'eth0'
+28/12/2024 -- 06:42:22 - <Info> - Found an MTU of 1500 for 'eth0'
+28/12/2024 -- 06:42:22 - <Info> - fast output device (regular) initialized: fast.log
+28/12/2024 -- 06:42:22 - <Info> - eve-log output device (regular) initialized: eve.json
+28/12/2024 -- 06:42:22 - <Info> - stats output device (regular) initialized: stats.log
+28/12/2024 -- 06:42:22 - <Info> - Running in live mode, activating unix socket
+28/12/2024 -- 06:42:22 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+28/12/2024 -- 06:42:22 - <Info> - Threshold config parsed: 0 rule(s) found
+28/12/2024 -- 06:42:22 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+28/12/2024 -- 06:42:22 - <Info> - Going to use 8 thread(s)
+28/12/2024 -- 06:42:22 - <Info> - Running in live mode, activating unix socket
+28/12/2024 -- 06:42:22 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+28/12/2024 -- 06:42:22 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+28/12/2024 -- 06:42:22 - <Info> - All AFP capture threads are running.
+29/12/2024 -- 06:12:44 - <Notice> - Signal Received.  Stopping engine.
+29/12/2024 -- 06:12:44 - <Info> - time elapsed 84622.672s
+29/12/2024 -- 06:12:44 - <Info> - Alerts: 0
+29/12/2024 -- 06:12:44 - <Info> - cleaning up signature grouping structure... complete
+29/12/2024 -- 06:12:44 - <Notice> - Stats for 'eth0':  pkts: 9, drop: 0 (0.00%), invalid chksum: 0
+11/1/2025 -- 19:47:16 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+11/1/2025 -- 19:47:16 - <Info> - CPUs/cores online: 8
+11/1/2025 -- 19:47:16 - <Info> - Found an MTU of 1500 for 'eth0'
+11/1/2025 -- 19:47:16 - <Info> - Found an MTU of 1500 for 'eth0'
+11/1/2025 -- 19:47:16 - <Info> - fast output device (regular) initialized: fast.log
+11/1/2025 -- 19:47:16 - <Info> - eve-log output device (regular) initialized: eve.json
+11/1/2025 -- 19:47:16 - <Info> - stats output device (regular) initialized: stats.log
+11/1/2025 -- 19:47:16 - <Info> - Running in live mode, activating unix socket
+11/1/2025 -- 19:47:16 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+11/1/2025 -- 19:47:16 - <Info> - Threshold config parsed: 0 rule(s) found
+11/1/2025 -- 19:47:16 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+11/1/2025 -- 19:47:16 - <Info> - Going to use 8 thread(s)
+11/1/2025 -- 19:47:16 - <Info> - Running in live mode, activating unix socket
+11/1/2025 -- 19:47:16 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+11/1/2025 -- 19:47:16 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+11/1/2025 -- 19:47:16 - <Info> - All AFP capture threads are running.
+11/1/2025 -- 20:23:49 - <Notice> - Signal Received.  Stopping engine.
+11/1/2025 -- 20:23:49 - <Info> - time elapsed 2193.090s
+11/1/2025 -- 20:23:50 - <Info> - Alerts: 0
+11/1/2025 -- 20:23:50 - <Info> - cleaning up signature grouping structure... complete
+11/1/2025 -- 20:23:50 - <Notice> - Stats for 'eth0':  pkts: 12, drop: 0 (0.00%), invalid chksum: 0
+11/1/2025 -- 21:32:38 - <Notice> - This is Suricata version 6.0.4 RELEASE running in SYSTEM mode
+11/1/2025 -- 21:32:38 - <Info> - CPUs/cores online: 8
+11/1/2025 -- 21:32:38 - <Info> - Found an MTU of 1500 for 'eth0'
+11/1/2025 -- 21:32:38 - <Info> - Found an MTU of 1500 for 'eth0'
+11/1/2025 -- 21:32:38 - <Info> - fast output device (regular) initialized: fast.log
+11/1/2025 -- 21:32:38 - <Info> - eve-log output device (regular) initialized: eve.json
+11/1/2025 -- 21:32:38 - <Info> - stats output device (regular) initialized: stats.log
+11/1/2025 -- 21:32:38 - <Info> - Running in live mode, activating unix socket
+11/1/2025 -- 21:32:38 - <Info> - 1 rule files processed. 5 rules successfully loaded, 0 rules failed
+11/1/2025 -- 21:32:38 - <Info> - Threshold config parsed: 0 rule(s) found
+11/1/2025 -- 21:32:38 - <Info> - 5 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+11/1/2025 -- 21:32:38 - <Info> - Going to use 8 thread(s)
+11/1/2025 -- 21:32:38 - <Info> - Running in live mode, activating unix socket
+11/1/2025 -- 21:32:38 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+11/1/2025 -- 21:32:38 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+11/1/2025 -- 21:32:38 - <Info> - All AFP capture threads are running.
+13/1/2025 -- 05:47:56 - <Notice> - Signal Received.  Stopping engine.
+13/1/2025 -- 05:47:56 - <Info> - time elapsed 116118.289s
+13/1/2025 -- 05:47:56 - <Info> - Alerts: 0
+13/1/2025 -- 05:47:56 - <Info> - cleaning up signature grouping structure... complete
+13/1/2025 -- 05:47:56 - <Notice> - Stats for 'eth0':  pkts: 15, drop: 0 (0.00%), invalid chksum: 0

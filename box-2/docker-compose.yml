@@ -1,0 +1,33 @@
+## BOX_2_OUTILS_OFFENSIFS
+services:
+# CAIDO
+  caido:
+    image: caido/caido:latest
+    container_name: caido
+    ports:
+    - "8080:8080"
+    volumes:
+      - ./data:/home/caido/.local/share/caido
+    platform: linux/amd64
+    networks:
+      - net_lab
+# NMAP
+  nmap:
+    build:
+      context: ./Dockerfiles/nmap
+    container_name: nmap
+    networks:
+      - net_lab
+# SQLMAP
+  sqlmap:
+    build:
+      context: ./Dockerfiles/sqlmap/.
+    volumes:
+      - ./Dockerfiles/sqlmap/data/queries:/queries
+      - ./Dockerfiles/sqlmap/data/out:/root/.local/share/sqlmap/output
+    networks:
+      - net_lab
+
+networks:
+  net_lab:
+    driver: bridge

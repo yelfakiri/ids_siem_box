@@ -1,0 +1,80 @@
+2025-01-11T19:50:07.513936Z  INFO main proxy|main:   ____      _     _    
+2025-01-11T19:50:07.514634Z  INFO main proxy|main:  / ___|__ _(_) __| | ___    
+2025-01-11T19:50:07.514789Z  INFO main proxy|main: | |   / _` | |/ _` |/ _ \    
+2025-01-11T19:50:07.514792Z  INFO main proxy|main: | |__| (_| | | (_| | (_) |    
+2025-01-11T19:50:07.514795Z  INFO main proxy|main:  \____\__,_|_|\__,_|\___/    
+2025-01-11T19:50:07.514797Z  INFO main proxy|main:     
+2025-01-11T19:50:07.520299Z  INFO main service|config: Data directory: /home/caido/.local/share/caido    
+2025-01-11T19:50:07.522117Z  INFO main database|config: Creating configuration connection pool    
+2025-01-11T19:50:07.525437Z  INFO main database|config: Upgrading configuration    
+2025-01-11T19:50:07.600072Z  INFO main service|authentication: Client: 01JEQW8V52AY7BP1J3YRPYR22R    
+2025-01-11T19:50:07.621526Z  INFO main service|upstream: Loading upstream proxies    
+2025-01-11T19:50:07.674463Z  INFO main service|plugin: Starting all backend plugins    
+2025-01-11T19:50:07.687209Z  INFO main proxy|main: Listening on 0.0.0.0:8080 (Proxy, UI)    
+2025-01-11T19:50:07.687925Z  INFO main actix_server::builder: starting 8 workers
+2025-01-11T19:50:07.688637Z  INFO main actix_server::server: Actix runtime found; starting in Actix runtime
+2025-01-11T19:50:07.688672Z  INFO main actix_server::server: starting service: "dispatcher-service-0.0.0.0:8080", workers: 8, listening on: 0.0.0.0:8080
+2025-01-11T19:50:08.570143Z  INFO main service|cloud: Connected to the caido cloud    
+2025-01-11T20:11:02.361269Z  INFO actix-rt|system:0|arbiter:0 api|controller: GET / HTTP/1.1 -> 200    
+2025-01-11T20:11:02.377101Z  INFO actix-rt|system:0|arbiter:2 api|controller: GET /assets/misc-_UmGDhrg.js HTTP/1.1 -> 200    
+2025-01-11T20:11:02.379689Z  INFO actix-rt|system:0|arbiter:3 api|controller: GET /assets/lodash-FmlLhNP_.js HTTP/1.1 -> 200    
+2025-01-11T20:11:02.381739Z  INFO actix-rt|system:0|arbiter:5 api|controller: GET /assets/lezer-6A1o3xkW.js HTTP/1.1 -> 200    
+2025-01-11T20:11:02.384257Z  INFO actix-rt|system:0|arbiter:6 api|controller: GET /assets/vendor-CyDtnmqq.js HTTP/1.1 -> 200    
+2025-01-11T20:11:02.386095Z  INFO actix-rt|system:0|arbiter:1 api|controller: GET /assets/index-BeMCLQY0.js HTTP/1.1 -> 200    
+2025-01-11T20:11:02.391993Z  INFO actix-rt|system:0|arbiter:1 api|controller: GET /assets/proxy-frontend--components-CIsyvGSV.js HTTP/1.1 -> 200    
+2025-01-11T20:11:02.392877Z  INFO actix-rt|system:0|arbiter:2 api|controller: GET /assets/@caido--common-frontend-CFV1791o.js HTTP/1.1 -> 200    
+2025-01-11T20:11:02.394290Z  INFO actix-rt|system:0|arbiter:7 api|controller: GET /assets/primevue-CVSlmCn7.js HTTP/1.1 -> 200    
+2025-01-11T20:11:02.394906Z  INFO actix-rt|system:0|arbiter:0 api|controller: GET /assets/proxy-frontend--graphql-DoQnoqdK.js HTTP/1.1 -> 200    
+2025-01-11T20:11:02.403874Z  INFO actix-rt|system:0|arbiter:4 api|controller: GET /assets/codemirror-Bfi2fIPW.js HTTP/1.1 -> 200    
+2025-01-11T20:11:02.406132Z  INFO actix-rt|system:0|arbiter:5 api|controller: GET /assets/proxy-frontend--utils-s2mFFs_i.js HTTP/1.1 -> 200    
+2025-01-11T20:11:02.409053Z  INFO actix-rt|system:0|arbiter:3 api|controller: GET /assets/typescript-C66gIlCc.js HTTP/1.1 -> 200    
+2025-01-11T20:11:02.413161Z  INFO actix-rt|system:0|arbiter:6 api|controller: GET /assets/proxy-frontend--codemirror-CX0x_irQ.js HTTP/1.1 -> 200    
+2025-01-11T20:11:02.413370Z  INFO actix-rt|system:0|arbiter:7 api|controller: GET /assets/rete-BpNVFteY.js HTTP/1.1 -> 200    
+2025-01-11T20:11:02.418239Z  INFO actix-rt|system:0|arbiter:1 api|controller: GET /assets/proxy-frontend--rete-CcX8lcX2.js HTTP/1.1 -> 200    
+2025-01-11T20:11:02.418336Z  INFO actix-rt|system:0|arbiter:0 api|controller: GET /assets/zod-BUfwsyyR.js HTTP/1.1 -> 200    
+2025-01-11T20:11:02.419264Z  INFO actix-rt|system:0|arbiter:2 api|controller: GET /assets/@caido--convert-C2FOeTqb.js HTTP/1.1 -> 200    
+2025-01-11T20:11:02.421054Z  INFO actix-rt|system:0|arbiter:3 api|controller: GET /assets/proxy-frontend--migrations-CDrk9ZnA.js HTTP/1.1 -> 200    
+2025-01-11T20:11:02.423850Z  INFO actix-rt|system:0|arbiter:4 api|controller: GET /assets/tldts-DLcdWWln.js HTTP/1.1 -> 200    
+2025-01-11T20:11:02.423968Z  INFO actix-rt|system:0|arbiter:5 api|controller: GET /assets/proxy-frontend--ui--licenses-DvoEhDV2.js HTTP/1.1 -> 200    
+2025-01-11T20:11:02.427804Z  INFO actix-rt|system:0|arbiter:6 api|controller: GET /assets/style-D0VmDuOZ.css HTTP/1.1 -> 200    
+2025-01-11T20:11:02.478096Z  INFO actix-rt|system:0|arbiter:7 api|controller: GET / HTTP/1.1 -> 200    
+2025-01-11T20:11:02.485896Z  INFO actix-rt|system:0|arbiter:2 api|controller: GET /assets/style-D0VmDuOZ.css HTTP/1.1 -> 200    
+2025-01-11T20:11:02.486882Z  INFO actix-rt|system:0|arbiter:0 api|controller: GET /assets/index-BeMCLQY0.js HTTP/1.1 -> 200    
+2025-01-11T20:11:02.487601Z  INFO actix-rt|system:0|arbiter:1 api|controller: GET /assets/typescript-C66gIlCc.js HTTP/1.1 -> 200    
+2025-01-11T20:11:02.775430Z  INFO actix-rt|system:0|arbiter:3 api|controller: GET /assets/index_bg-BHETtx89.wasm HTTP/1.1 -> 200    
+2025-01-11T20:11:02.781851Z  INFO actix-rt|system:0|arbiter:4 api|controller: GET /assets/favicon-Cw67QAUK.ico HTTP/1.1 -> 200    
+2025-01-11T20:11:02.829016Z  INFO actix-rt|system:0|arbiter:6 api|controller: GET /assets/logo_only-D3kxpxLJ.svg HTTP/1.1 -> 200    
+2025-01-11T20:11:02.868460Z  INFO actix-rt|system:0|arbiter:5 api|graphql: [subscription] createdAuthenticationToken    
+2025-01-11T20:11:10.748587Z  INFO actix-rt|system:0|arbiter:7 api|controller: GET / HTTP/1.1 -> 200    
+2025-01-11T20:11:10.764796Z  INFO actix-rt|system:0|arbiter:0 api|controller: GET /assets/index-BeMCLQY0.js HTTP/1.1 -> 200    
+2025-01-11T20:11:10.766120Z  INFO actix-rt|system:0|arbiter:1 api|controller: GET /assets/style-D0VmDuOZ.css HTTP/1.1 -> 200    
+2025-01-11T20:11:10.976994Z  INFO actix-rt|system:0|arbiter:2 api|controller: GET /assets/index_bg-BHETtx89.wasm HTTP/1.1 -> 200    
+2025-01-11T20:11:11.011071Z  INFO actix-rt|system:0|arbiter:4 api|controller: GET /assets/logo_only-D3kxpxLJ.svg HTTP/1.1 -> 200    
+2025-01-11T20:11:11.019736Z  INFO actix-rt|system:0|arbiter:3 api|graphql: [subscription] createdAuthenticationToken    
+2025-01-11T20:23:49.703320Z  INFO main actix_server::server: SIGTERM received; starting graceful shutdown
+2025-01-11T20:23:49.704929Z  INFO actix-rt|system:0|arbiter:0 actix_server::worker: shutting down idle worker
+2025-01-11T20:23:49.704981Z  INFO actix-rt|system:0|arbiter:2 actix_server::worker: shutting down idle worker
+2025-01-11T20:23:49.705393Z  INFO actix-rt|system:0|arbiter:3 actix_server::worker: shutting down idle worker
+2025-01-11T20:23:49.705811Z  INFO actix-rt|system:0|arbiter:1 actix_server::worker: shutting down idle worker
+2025-01-11T20:23:49.706211Z  INFO actix-rt|system:0|arbiter:5 actix_server::worker: shutting down idle worker
+2025-01-11T20:23:49.706291Z  INFO actix-rt|system:0|arbiter:6 actix_server::worker: shutting down idle worker
+2025-01-11T20:23:49.706589Z  INFO actix-rt|system:0|arbiter:7 actix_server::worker: shutting down idle worker
+2025-01-11T20:23:49.706687Z  INFO actix-rt|system:0|arbiter:4 actix_server::worker: shutting down idle worker
+2025-01-11T20:23:49.708036Z  INFO actix-server acceptor actix_server::accept: accept thread stopped
+2025-01-11T21:33:42.937390Z  INFO main proxy|main:   ____      _     _    
+2025-01-11T21:33:42.938036Z  INFO main proxy|main:  / ___|__ _(_) __| | ___    
+2025-01-11T21:33:42.938195Z  INFO main proxy|main: | |   / _` | |/ _` |/ _ \    
+2025-01-11T21:33:42.938199Z  INFO main proxy|main: | |__| (_| | | (_| | (_) |    
+2025-01-11T21:33:42.938201Z  INFO main proxy|main:  \____\__,_|_|\__,_|\___/    
+2025-01-11T21:33:42.938204Z  INFO main proxy|main:     
+2025-01-11T21:33:42.943965Z  INFO main service|config: Data directory: /home/caido/.local/share/caido    
+2025-01-11T21:33:42.945378Z  INFO main database|config: Creating configuration connection pool    
+2025-01-11T21:33:42.949001Z  INFO main database|config: Upgrading configuration    
+2025-01-11T21:33:43.023873Z  INFO main service|authentication: Client: 01JEQW8V52AY7BP1J3YRPYR22R    
+2025-01-11T21:33:43.044090Z  INFO main service|upstream: Loading upstream proxies    
+2025-01-11T21:33:43.080831Z  INFO main service|plugin: Starting all backend plugins    
+2025-01-11T21:33:43.094723Z  INFO main proxy|main: Listening on 0.0.0.0:8080 (Proxy, UI)    
+2025-01-11T21:33:43.095295Z  INFO main actix_server::builder: starting 8 workers
+2025-01-11T21:33:43.095956Z  INFO main actix_server::server: Actix runtime found; starting in Actix runtime
+2025-01-11T21:33:43.095995Z  INFO main actix_server::server: starting service: "dispatcher-service-0.0.0.0:8080", workers: 8, listening on: 0.0.0.0:8080
+2025-01-11T21:33:43.823755Z  INFO main service|cloud: Connected to the caido cloud    

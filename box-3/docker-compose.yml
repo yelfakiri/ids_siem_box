@@ -1,0 +1,23 @@
+## BOX_3_VULNERABLE
+services:
+  metasploitable2:
+    image: tleemcjr/metasploitable2
+    container_name: metasploitable2
+    platform: linux/amd64  # Spécifie l'architecture
+    ports:
+      - "2222:22"    # SSH
+      - "21:21"      # FTP
+      - "23:23"      # Telnet
+      - "80:80"      # HTTP
+      - "443:443"    # HTTPS
+      - "445:445"    # SMB
+      - "3306:3306"  # MySQL
+      - "5900:5900"  # VNC
+    networks:
+      - net_lab
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
+networks:
+  net_lab:
+    driver: bridge

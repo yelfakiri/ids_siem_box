@@ -1,0 +1,10 @@
+2025-01-13T05:47:56.332825Z  INFO main actix_server::server: SIGTERM received; starting graceful shutdown
+2025-01-13T05:47:56.338965Z  INFO actix-rt|system:0|arbiter:2 actix_server::worker: shutting down idle worker
+2025-01-13T05:47:56.339131Z  INFO actix-rt|system:0|arbiter:7 actix_server::worker: shutting down idle worker
+2025-01-13T05:47:56.339149Z  INFO actix-rt|system:0|arbiter:5 actix_server::worker: shutting down idle worker
+2025-01-13T05:47:56.339296Z  INFO actix-rt|system:0|arbiter:3 actix_server::worker: shutting down idle worker
+2025-01-13T05:47:56.339354Z  INFO actix-rt|system:0|arbiter:0 actix_server::worker: shutting down idle worker
+2025-01-13T05:47:56.339877Z  INFO actix-rt|system:0|arbiter:6 actix_server::worker: shutting down idle worker
+2025-01-13T05:47:56.340303Z  INFO actix-rt|system:0|arbiter:4 actix_server::worker: shutting down idle worker
+2025-01-13T05:47:56.340743Z  INFO actix-rt|system:0|arbiter:1 actix_server::worker: shutting down idle worker
+2025-01-13T05:47:56.343004Z  INFO actix-server acceptor actix_server::accept: accept thread stopped

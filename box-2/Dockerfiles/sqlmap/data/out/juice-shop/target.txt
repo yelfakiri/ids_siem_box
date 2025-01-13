@@ -1,0 +1,3 @@
+http://juice-shop:3000/rest/user/login (POST)  # sqlmap.py -r /queries/query1.txt --dbs
+
+{"email":"user@example.com*","password":"test"}

@@ -1,0 +1,1 @@
+http://metasploitable2:80/dvwa (GET)  # sqlmap.py -u http://metasploitable2:80/dvwa

