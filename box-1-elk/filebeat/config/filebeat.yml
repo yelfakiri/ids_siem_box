@@ -1,0 +1,20 @@
+filebeat.inputs:
+  - type: log
+    paths:
+      - /var/log/suricata/eve.json
+    json.keys_under_root: true
+    json.add_error_key: true
+
+output.elasticsearch:
+  hosts: ["http://elasticsearch:9200"]
+  username: "elastic"
+  password: ""
+
+setup.kibana:
+  host: "http://elasticsearch:5601"
+
+filebeat.modules:
+  - module: suricata
+    eve:
+      enabled: true
+      var.paths: ["/var/log/suricata/eve.json"]

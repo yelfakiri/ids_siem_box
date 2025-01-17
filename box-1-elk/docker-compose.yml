@@ -1,0 +1,51 @@
+services:
+  grafana:
+    image: grafana/grafana:8.4.3
+    container_name: grafana
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./data/grafana-data:/var/lib/grafana
+    networks:
+      - net_siem_vuln
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.17.0
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+    ports:
+      - "9200:9200"
+    networks:
+      - net_siem_vuln
+
+  filebeat:
+    image: docker.elastic.co/beats/filebeat:7.17.0
+    container_name: filebeat
+    volumes:
+      - ./filebeat/config/filebeat.yml:/usr/share/filebeat/filebeat.yml
+      - ./filebeat/config/suricata.yml:/usr/share/filebeat/modules.d/suricata.yml
+      - ./suricata/logs:/var/log/suricata
+    networks:
+      - net_siem_vuln
+   
+  suricata:
+    image: jasonish/suricata:6.0.4
+    container_name: suricata
+    command: ["-i", "eth0"]
+    cap_add:
+      - NET_ADMIN
+    volumes:
+      - ./suricata/logs:/var/log/suricata
+      - ./suricata/rules:/var/lib/suricata/rules
+      - ./suricata/data/suricata.yaml:/etc/suricata/suricata.yaml
+    networks:
+      - net_siem_vuln
+
+networks:
+  net_siem_vuln:
+    external: true

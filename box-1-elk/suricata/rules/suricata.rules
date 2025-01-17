@@ -1,0 +1,41 @@
+# Règles Suricata pour détection d'attaques réseau
+
+# Détection des scans Nmap (SYN)
+alert tcp any any -> any any (msg:"Nmap SYN Scan Detected"; flags:S; sid:1000001; rev:1;)
+
+# Détection des pings ICMP (echo request)
+alert icmp any any -> any any (msg:"ICMP Echo Request Detected (Ping)"; itype:8; sid:1000002; rev:1;)
+
+# Détection des réponses ICMP (echo reply)
+alert icmp any any -> any any (msg:"ICMP Echo Reply Detected"; itype:0; sid:1000003; rev:1;)
+
+# Détection des scans Nmap utilisant des ACK packets
+alert tcp any any -> any any (msg:"Nmap ACK Scan Detected"; flags:A; sid:1000004; rev:1;)
+
+# Détection des scans UDP
+alert udp any any -> any any (msg:"Nmap UDP Scan Detected"; sid:1000005; rev:1;)
+
+# Détection des connexions suspectes HTTP (exemple: accès à /etc/passwd)
+alert http any any -> any any (msg:"Suspicious HTTP Connection Detected"; content:"/etc/passwd"; nocase; sid:1000006; rev:1;)
+
+# Détection d'accès FTP non autorisé
+alert ftp any any -> any any (msg:"Unauthorized FTP Access"; content:"USER root"; nocase; sid:1000007; rev:1;)
+
+# Détection des transferts DNS suspects
+alert udp any any -> any 53 (msg:"Suspicious DNS Query Detected"; content:"malicious-domain"; nocase; sid:1000008; rev:1;)
+
+# Détection des attaques HTTP SQL Injection
+alert http any any -> any any (msg:"SQL Injection Attempt Detected"; content:"' OR 1=1 --"; nocase; sid:1000009; rev:1;)
+
+# Détection du trafic HTTP sur le port 80 (spécifique à HTTP)
+alert tcp any any -> any 80 (msg:"HTTP Traffic Detected"; sid:1000010; rev:1;)
+
+# Détection de requêtes HTTP suspectes
+alert tcp any any -> any 80 (msg:"Suspicious HTTP Request Detected"; content:"/etc/passwd"; sid:1000011; rev:1;)
+
+
+# Détection d'une tentative de scan port (UDP)
+alert udp any any -> any any (msg:"Port Scan Detected (UDP)"; sid:1000013; rev:1;)
+
+# Détection des tentatives d'attaque par commande distante (exploitation vulnérabilité)
+alert tcp any any -> any 443 (msg:"Suspicious Command Execution Attempt via HTTPS"; content:"/bin/bash"; sid:1000014; rev:1;)

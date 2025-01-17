@@ -13,11 +13,15 @@ services:
       - "445:445"    # SMB
       - "3306:3306"  # MySQL
       - "5900:5900"  # VNC
-    networks:
-      - net_lab
     tty: true
     stdin_open: true
     restart: unless-stopped
+    networks:
+      - net_attack_vuln
+      - net_siem_vuln
+
 networks:
-  net_lab:
-    driver: bridge
+  net_attack_vuln:
+    external: true
+  net_siem_vuln:
+    external: true

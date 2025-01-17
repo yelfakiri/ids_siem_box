@@ -8,3 +8,20 @@
 2025-01-13T05:47:56.340303Z  INFO actix-rt|system:0|arbiter:4 actix_server::worker: shutting down idle worker
 2025-01-13T05:47:56.340743Z  INFO actix-rt|system:0|arbiter:1 actix_server::worker: shutting down idle worker
 2025-01-13T05:47:56.343004Z  INFO actix-server acceptor actix_server::accept: accept thread stopped
+2025-01-13T07:10:33.399016Z  INFO main proxy|main:   ____      _     _    
+2025-01-13T07:10:33.399695Z  INFO main proxy|main:  / ___|__ _(_) __| | ___    
+2025-01-13T07:10:33.399849Z  INFO main proxy|main: | |   / _` | |/ _` |/ _ \    
+2025-01-13T07:10:33.399852Z  INFO main proxy|main: | |__| (_| | | (_| | (_) |    
+2025-01-13T07:10:33.399855Z  INFO main proxy|main:  \____\__,_|_|\__,_|\___/    
+2025-01-13T07:10:33.399857Z  INFO main proxy|main:     
+2025-01-13T07:10:33.405423Z  INFO main service|config: Data directory: /home/caido/.local/share/caido    
+2025-01-13T07:10:33.407224Z  INFO main database|config: Creating configuration connection pool    
+2025-01-13T07:10:33.410698Z  INFO main database|config: Upgrading configuration    
+2025-01-13T07:10:33.487957Z  INFO main service|authentication: Client: 01JEQW8V52AY7BP1J3YRPYR22R    
+2025-01-13T07:10:33.508740Z  INFO main service|upstream: Loading upstream proxies    
+2025-01-13T07:10:33.544198Z  INFO main service|plugin: Starting all backend plugins    
+2025-01-13T07:10:33.558467Z  INFO main proxy|main: Listening on 0.0.0.0:8080 (Proxy, UI)    
+2025-01-13T07:10:33.559092Z  INFO main actix_server::builder: starting 8 workers
+2025-01-13T07:10:33.559803Z  INFO main actix_server::server: Actix runtime found; starting in Actix runtime
+2025-01-13T07:10:33.559834Z  INFO main actix_server::server: starting service: "dispatcher-service-0.0.0.0:8080", workers: 8, listening on: 0.0.0.0:8080
+2025-01-13T07:10:34.219376Z  INFO main service|cloud: Connected to the caido cloud    

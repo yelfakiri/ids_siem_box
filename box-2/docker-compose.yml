@@ -10,14 +10,14 @@ services:
       - ./data:/home/caido/.local/share/caido
     platform: linux/amd64
     networks:
-      - net_lab
+      - net_attack_vuln
 # NMAP
   nmap:
     build:
       context: ./Dockerfiles/nmap
     container_name: nmap
     networks:
-      - net_lab
+      - net_attack_vuln
 # SQLMAP
   sqlmap:
     build:
@@ -26,8 +26,8 @@ services:
       - ./Dockerfiles/sqlmap/data/queries:/queries
       - ./Dockerfiles/sqlmap/data/out:/root/.local/share/sqlmap/output
     networks:
-      - net_lab
+      - net_attack_vuln
 
 networks:
-  net_lab:
-    driver: bridge
+  net_attack_vuln:
+    external: true
