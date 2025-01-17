@@ -1,1 +1,2 @@
-/box-1/data/suricata-logs/
+/box-1-loki/data/suricata-logs/
+/box-1-elk/data/suricata-logs/
