@@ -1,0 +1,84 @@
+2025-03-11T05:07:36.614251Z  INFO main actix_server::server: SIGTERM received; starting graceful shutdown
+2025-03-11T05:07:36.624563Z  INFO actix-server acceptor actix_server::accept: accept thread stopped
+2025-03-11T05:07:36.627559Z  INFO actix-rt|system:0|arbiter:6 actix_server::worker: shutting down idle worker
+2025-03-11T05:07:36.627818Z  INFO actix-rt|system:0|arbiter:7 actix_server::worker: shutting down idle worker
+2025-03-11T05:07:36.628100Z  INFO actix-rt|system:0|arbiter:1 actix_server::worker: shutting down idle worker
+2025-03-11T05:07:36.628514Z  INFO actix-rt|system:0|arbiter:2 actix_server::worker: shutting down idle worker
+2025-03-11T05:07:36.628995Z  INFO actix-rt|system:0|arbiter:0 actix_server::worker: shutting down idle worker
+2025-03-11T05:07:36.629006Z  INFO actix-rt|system:0|arbiter:3 actix_server::worker: shutting down idle worker
+2025-03-11T05:07:36.629218Z  INFO actix-rt|system:0|arbiter:4 actix_server::worker: shutting down idle worker
+2025-03-11T05:07:36.629295Z  INFO actix-rt|system:0|arbiter:5 actix_server::worker: shutting down idle worker
+2025-03-11T05:08:06.330841Z  INFO main proxy|main:   ____      _     _    
+2025-03-11T05:08:06.331589Z  INFO main proxy|main:  / ___|__ _(_) __| | ___    
+2025-03-11T05:08:06.331593Z  INFO main proxy|main: | |   / _` | |/ _` |/ _ \    
+2025-03-11T05:08:06.331595Z  INFO main proxy|main: | |__| (_| | | (_| | (_) |    
+2025-03-11T05:08:06.331597Z  INFO main proxy|main:  \____\__,_|_|\__,_|\___/    
+2025-03-11T05:08:06.331599Z  INFO main proxy|main:     
+2025-03-11T05:08:06.339084Z  INFO main service|config: Data directory: /home/caido/.local/share/caido    
+2025-03-11T05:08:06.341619Z  INFO main database|config: Creating configuration connection pool    
+2025-03-11T05:08:06.345568Z  INFO main database|config: Upgrading configuration    
+2025-03-11T05:08:06.392104Z  INFO main proxy|logging: Starting streaming controller    
+2025-03-11T05:08:06.449106Z  INFO main service|authentication: Client: 01JEQW8V52AY7BP1J3YRPYR22R    
+2025-03-11T05:08:06.514769Z  INFO main service|upstream: Loading upstream proxies    
+2025-03-11T05:08:06.530345Z  INFO main service|plugin: Starting all backend plugins    
+2025-03-11T05:08:06.541607Z  INFO main proxy|main: Listening on 0.0.0.0:8080 (Proxy, UI)    
+2025-03-11T05:08:06.542185Z  INFO main actix_server::builder: starting 8 workers
+2025-03-11T05:08:06.542657Z  INFO main actix_server::server: Actix runtime found; starting in Actix runtime
+2025-03-11T05:08:06.542833Z  INFO main actix_server::server: starting service: "dispatcher-service-0.0.0.0:8080", workers: 8, listening on: 0.0.0.0:8080
+2025-03-11T05:08:07.174281Z  INFO main service|cloud: Connected to the caido cloud    
+2025-03-11T05:26:07.532346Z  INFO main actix_server::server: SIGTERM received; starting graceful shutdown
+2025-03-11T05:26:07.535845Z  INFO actix-server acceptor actix_server::accept: accept thread stopped
+2025-03-11T05:26:07.537560Z  INFO actix-rt|system:0|arbiter:0 actix_server::worker: shutting down idle worker
+2025-03-11T05:26:07.538389Z  INFO actix-rt|system:0|arbiter:1 actix_server::worker: shutting down idle worker
+2025-03-11T05:26:07.538788Z  INFO actix-rt|system:0|arbiter:2 actix_server::worker: shutting down idle worker
+2025-03-11T05:26:07.538929Z  INFO actix-rt|system:0|arbiter:5 actix_server::worker: shutting down idle worker
+2025-03-11T05:26:07.539227Z  INFO actix-rt|system:0|arbiter:4 actix_server::worker: shutting down idle worker
+2025-03-11T05:26:07.539492Z  INFO actix-rt|system:0|arbiter:7 actix_server::worker: shutting down idle worker
+2025-03-11T05:26:07.539249Z  INFO actix-rt|system:0|arbiter:6 actix_server::worker: shutting down idle worker
+2025-03-11T05:26:07.539862Z  INFO actix-rt|system:0|arbiter:3 actix_server::worker: shutting down idle worker
+2025-03-11T05:27:24.706298Z  INFO main proxy|main:   ____      _     _    
+2025-03-11T05:27:24.707050Z  INFO main proxy|main:  / ___|__ _(_) __| | ___    
+2025-03-11T05:27:24.707053Z  INFO main proxy|main: | |   / _` | |/ _` |/ _ \    
+2025-03-11T05:27:24.707055Z  INFO main proxy|main: | |__| (_| | | (_| | (_) |    
+2025-03-11T05:27:24.707058Z  INFO main proxy|main:  \____\__,_|_|\__,_|\___/    
+2025-03-11T05:27:24.707060Z  INFO main proxy|main:     
+2025-03-11T05:27:24.714583Z  INFO main service|config: Data directory: /home/caido/.local/share/caido    
+2025-03-11T05:27:24.717484Z  INFO main database|config: Creating configuration connection pool    
+2025-03-11T05:27:24.720598Z  INFO main database|config: Upgrading configuration    
+2025-03-11T05:27:24.764150Z  INFO main proxy|logging: Starting streaming controller    
+2025-03-11T05:27:24.823079Z  INFO main service|authentication: Client: 01JEQW8V52AY7BP1J3YRPYR22R    
+2025-03-11T05:27:24.884968Z  INFO main service|upstream: Loading upstream proxies    
+2025-03-11T05:27:24.900579Z  INFO main service|plugin: Starting all backend plugins    
+2025-03-11T05:27:24.912306Z  INFO main proxy|main: Listening on 0.0.0.0:8080 (Proxy, UI)    
+2025-03-11T05:27:24.912883Z  INFO main actix_server::builder: starting 8 workers
+2025-03-11T05:27:24.913365Z  INFO main actix_server::server: Actix runtime found; starting in Actix runtime
+2025-03-11T05:27:24.913538Z  INFO main actix_server::server: starting service: "dispatcher-service-0.0.0.0:8080", workers: 8, listening on: 0.0.0.0:8080
+2025-03-11T05:27:25.704755Z  INFO main service|cloud: Connected to the caido cloud    
+2025-03-11T05:35:02.801178Z  INFO main actix_server::server: SIGTERM received; starting graceful shutdown
+2025-03-11T05:35:02.802663Z  INFO actix-server acceptor actix_server::accept: accept thread stopped
+2025-03-11T05:35:02.803017Z  INFO actix-rt|system:0|arbiter:0 actix_server::worker: shutting down idle worker
+2025-03-11T05:35:02.803794Z  INFO actix-rt|system:0|arbiter:2 actix_server::worker: shutting down idle worker
+2025-03-11T05:35:02.803824Z  INFO actix-rt|system:0|arbiter:6 actix_server::worker: shutting down idle worker
+2025-03-11T05:35:02.804241Z  INFO actix-rt|system:0|arbiter:7 actix_server::worker: shutting down idle worker
+2025-03-11T05:35:02.804322Z  INFO actix-rt|system:0|arbiter:5 actix_server::worker: shutting down idle worker
+2025-03-11T05:35:02.804415Z  INFO actix-rt|system:0|arbiter:4 actix_server::worker: shutting down idle worker
+2025-03-11T05:35:02.804501Z  INFO actix-rt|system:0|arbiter:1 actix_server::worker: shutting down idle worker
+2025-03-11T05:35:02.804763Z  INFO actix-rt|system:0|arbiter:3 actix_server::worker: shutting down idle worker
+2025-03-11T05:56:11.274392Z  INFO main proxy|main:   ____      _     _    
+2025-03-11T05:56:11.275052Z  INFO main proxy|main:  / ___|__ _(_) __| | ___    
+2025-03-11T05:56:11.275056Z  INFO main proxy|main: | |   / _` | |/ _` |/ _ \    
+2025-03-11T05:56:11.275058Z  INFO main proxy|main: | |__| (_| | | (_| | (_) |    
+2025-03-11T05:56:11.275060Z  INFO main proxy|main:  \____\__,_|_|\__,_|\___/    
+2025-03-11T05:56:11.275063Z  INFO main proxy|main:     
+2025-03-11T05:56:11.281988Z  INFO main service|config: Data directory: /home/caido/.local/share/caido    
+2025-03-11T05:56:11.293080Z  INFO main database|config: Creating configuration connection pool    
+2025-03-11T05:56:11.296739Z  INFO main database|config: Upgrading configuration    
+2025-03-11T05:56:11.335109Z  INFO main proxy|logging: Starting streaming controller    
+2025-03-11T05:56:11.374681Z  INFO main service|authentication: Client: 01JEQW8V52AY7BP1J3YRPYR22R    
+2025-03-11T05:56:11.425311Z  INFO main service|upstream: Loading upstream proxies    
+2025-03-11T05:56:11.439405Z  INFO main service|plugin: Starting all backend plugins    
+2025-03-11T05:56:11.449935Z  INFO main proxy|main: Listening on 0.0.0.0:8080 (Proxy, UI)    
+2025-03-11T05:56:11.450589Z  INFO main actix_server::builder: starting 8 workers
+2025-03-11T05:56:11.451067Z  INFO main actix_server::server: Actix runtime found; starting in Actix runtime
+2025-03-11T05:56:11.451243Z  INFO main actix_server::server: starting service: "dispatcher-service-0.0.0.0:8080", workers: 8, listening on: 0.0.0.0:8080
+2025-03-11T05:56:12.069522Z  INFO main service|cloud: Connected to the caido cloud    

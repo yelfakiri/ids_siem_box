@@ -1,0 +1,23 @@
+2025-03-06T06:31:48.011649Z  INFO main proxy|main:   ____      _     _    
+2025-03-06T06:31:48.012340Z  INFO main proxy|main:  / ___|__ _(_) __| | ___    
+2025-03-06T06:31:48.012344Z  INFO main proxy|main: | |   / _` | |/ _` |/ _ \    
+2025-03-06T06:31:48.012346Z  INFO main proxy|main: | |__| (_| | | (_| | (_) |    
+2025-03-06T06:31:48.012348Z  INFO main proxy|main:  \____\__,_|_|\__,_|\___/    
+2025-03-06T06:31:48.012350Z  INFO main proxy|main:     
+2025-03-06T06:31:48.018725Z  INFO main service|config: Data directory: /home/caido/.local/share/caido    
+2025-03-06T06:31:48.020661Z  INFO main database|config: Creating configuration connection pool    
+2025-03-06T06:31:48.024191Z  INFO main database|config: Upgrading configuration    
+2025-03-06T06:31:48.056963Z  INFO main database: Running migration: 2025-01-10-155500_project_opened_at    
+2025-03-06T06:31:48.068028Z  INFO main database: Running migration: 2025-01-30-122200_plugins_link    
+2025-03-06T06:31:48.068969Z  INFO main database: Running vacuum: main    
+2025-03-06T06:31:48.076963Z  INFO main database: Running vacuum: projects    
+2025-03-06T06:31:48.079812Z  INFO main database: Running vacuum: secrets    
+2025-03-06T06:31:48.124303Z  INFO main proxy|logging: Starting streaming controller    
+2025-03-06T06:31:48.162630Z  INFO main service|authentication: Client: 01JEQW8V52AY7BP1J3YRPYR22R    
+2025-03-06T06:31:48.217506Z  INFO main service|upstream: Loading upstream proxies    
+2025-03-06T06:31:48.233932Z  INFO main service|plugin: Starting all backend plugins    
+2025-03-06T06:31:48.244426Z  INFO main proxy|main: Listening on 0.0.0.0:8080 (Proxy, UI)    
+2025-03-06T06:31:48.245253Z  INFO main actix_server::builder: starting 8 workers
+2025-03-06T06:31:48.245766Z  INFO main actix_server::server: Actix runtime found; starting in Actix runtime
+2025-03-06T06:31:48.245949Z  INFO main actix_server::server: starting service: "dispatcher-service-0.0.0.0:8080", workers: 8, listening on: 0.0.0.0:8080
+2025-03-06T06:31:49.686015Z  INFO main service|cloud: Connected to the caido cloud    

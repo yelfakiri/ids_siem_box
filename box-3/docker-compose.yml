@@ -1,5 +1,7 @@
 ## BOX_3_VULNERABLE
 services:
+
+# METASPLOITABLE2 
   metasploitable2:
     image: tleemcjr/metasploitable2
     container_name: metasploitable2
@@ -17,11 +19,8 @@ services:
     stdin_open: true
     restart: unless-stopped
     networks:
-      - net_attack_vuln
-      - net_siem_vuln
+      - net_lab
 
 networks:
-  net_attack_vuln:
-    external: true
-  net_siem_vuln:
+  net_lab:
     external: true

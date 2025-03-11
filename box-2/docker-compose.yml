@@ -1,5 +1,14 @@
 ## BOX_2_OUTILS_OFFENSIFS
 services:
+# youtest
+  youtest:
+    build:
+      context: ./Dockerfiles/youtest
+    container_name: youtest
+    tty: true #pour garder le conteneur actif 
+    stdin_open: true #pour garder le conteneur actif 
+    networks:
+      - net_lab
 # CAIDO
   caido:
     image: caido/caido:latest
@@ -10,14 +19,14 @@ services:
       - ./data:/home/caido/.local/share/caido
     platform: linux/amd64
     networks:
-      - net_attack_vuln
+      - net_lab
 # NMAP
   nmap:
     build:
       context: ./Dockerfiles/nmap
     container_name: nmap
     networks:
-      - net_attack_vuln
+      - net_lab
 # SQLMAP
   sqlmap:
     build:
@@ -26,8 +35,8 @@ services:
       - ./Dockerfiles/sqlmap/data/queries:/queries
       - ./Dockerfiles/sqlmap/data/out:/root/.local/share/sqlmap/output
     networks:
-      - net_attack_vuln
+      - net_lab
 
 networks:
-  net_attack_vuln:
+  net_lab:
     external: true

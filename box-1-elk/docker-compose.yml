@@ -3,49 +3,83 @@ services:
     image: grafana/grafana:8.4.3
     container_name: grafana
     environment:
+      - TZ=Europe/Paris 
       - GF_SECURITY_ADMIN_USER=admin
       - GF_SECURITY_ADMIN_PASSWORD=admin
+      - GF_SMTP_ENABLED=true
+      - GF_SMTP_HOST=maildev:1025
+      - GF_SMTP_FROM_ADDRESS=alert@grafana.local
+      - GF_SMTP_SKIP_VERIFY=true
+      #- GF_UNIFIED_ALERTING_ENABLED=true
+      #- GF_ALERTING_ENABLED=true
+      - GF_FEATURE_TOGGLES_ENABLE=ngalert
     ports:
       - "3000:3000"
     volumes:
       - ./data/grafana-data:/var/lib/grafana
     networks:
-      - net_siem_vuln
+      - net_lab
 
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:7.17.0
     container_name: elasticsearch
     environment:
+    #  - TZ=Europe/Paris 
       - discovery.type=single-node
       - xpack.security.enabled=false
     ports:
       - "9200:9200"
     networks:
-      - net_siem_vuln
+      - net_lab
 
   filebeat:
     image: docker.elastic.co/beats/filebeat:7.17.0
     container_name: filebeat
+    #environment:
+    #  - TZ=Europe/Paris
     volumes:
+      - suricata_logs:/var/log/suricata  # Utilisation du volume partagé
       - ./filebeat/config/filebeat.yml:/usr/share/filebeat/filebeat.yml
       - ./filebeat/config/suricata.yml:/usr/share/filebeat/modules.d/suricata.yml
       - ./suricata/logs:/var/log/suricata
     networks:
-      - net_siem_vuln
+      - net_lab
    
   suricata:
     image: jasonish/suricata:6.0.4
     container_name: suricata
+    network_mode: "container:metasploitable2"  # Utilise le même réseau que Metasploitable2
     command: ["-i", "eth0"]
     cap_add:
       - NET_ADMIN
+    #environment:
+    #  - TZ=Europe/Paris
     volumes:
+      - suricata_logs:/var/log/suricata  # Utilisation du volume partagé
       - ./suricata/logs:/var/log/suricata
       - ./suricata/rules:/var/lib/suricata/rules
       - ./suricata/data/suricata.yaml:/etc/suricata/suricata.yaml
+      #- ./suricata/data/GeoLite2-Country.mmdb:/usr/local/share/GeoLite2/GeoLite2-Country.mmdb
+   #networks:
+      #- net_lab
+  
+  maildev:
+    image: maildev/maildev
+    container_name: maildev
+    restart: always
     networks:
-      - net_siem_vuln
+      - net_lab
+    environment:
+      - TZ=Europe/Paris
+      - MAILDEV_WEB_PORT=1080
+      - MAILDEV_SMTP_PORT=1025
+    ports:
+      - "1080:1080"  # Interface Web MailDev
+      - "1025:1025"  # Port SMTP
+
+volumes:
+  suricata_logs:
 
 networks:
-  net_siem_vuln:
+  net_lab:
     external: true

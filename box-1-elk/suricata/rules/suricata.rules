@@ -39,3 +39,11 @@ alert udp any any -> any any (msg:"Port Scan Detected (UDP)"; sid:1000013; rev:1
 
 # Détection des tentatives d'attaque par commande distante (exploitation vulnérabilité)
 alert tcp any any -> any 443 (msg:"Suspicious Command Execution Attempt via HTTPS"; content:"/bin/bash"; sid:1000014; rev:1;)
+
+# Détection d’un accès FTP anonyme
+alert tcp any any -> any 21 (msg:"[ALERT] Accès FTP anonyme détecté"; content:"230 Login successful"; sid:2000002; rev:1;)
+
+#Détection d’une Injection SQL via SQLMap
+alert http any any -> any any (msg:"[ALERT] Tentative d'Injection SQL détectée via SQLMap"; content:"id=1'"; nocase; http_uri; sid:2000003; rev:1;)
+
+alert tcp any any -> any 21 (msg:"[ALERT] Trafic FTP détecté"; sid:3000002; rev:1;)
