@@ -1,4 +1,3 @@
-"""
 # **IDS/SIEM with Suricata, Filebeat, Elasticsearch, Grafana, and MailDev**
 
 ## **Project Description**
